@@ -1,0 +1,20 @@
+{
+  "arm": "control",
+  "checkpoint_tag": "checkpoint_050",
+  "contains_images": false,
+  "contains_text_surfaces": false,
+  "fit_status_self_sha256": "cfce102708f55d2bf72db6b13bbfad9c7ebed40fb02220e4e607636edb4a640e",
+  "fit_status_sha256": "fabe4bae281091df0d5ef4cbf02b48a857f5975a8e534c488a08f4ac3fc2e891",
+  "prediction_policy": "outer_train_prevalence_rank",
+  "predictions_sha256": "9e691a4f1f97dd3d5786badc755a6483e0acb0a8651a799cbbc5d99625491e8e",
+  "query_fold": 0,
+  "query_labels_used_for_scoring_or_threshold": false,
+  "schema_version": "v170.oof_predictions.1",
+  "self_sha256": "3708af6bddf9b43c900881b7928c15160b6184e660a7011d14867d03ed0d5081",
+  "status": "COMPLETE",
+  "train_folds": [
+    1,
+    2,
+    3
+  ]
+}

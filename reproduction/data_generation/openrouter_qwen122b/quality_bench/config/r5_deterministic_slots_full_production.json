@@ -1,0 +1,40 @@
+{
+  "schema_version": "r5.deterministic_slots.production.freeze.1",
+  "experiment_id": "quality_r5_deterministic_slots_full_200_production",
+  "frozen_before_api_call": true,
+  "model": "qwen/qwen3.5-122b-a10b",
+  "model_config_sha256": "6cb6f78af483843114b66971c94be82003c8933b4b76e9aa58f92006f3142037",
+  "author_prompt_sha256": "e743a4e53e39a79efb869eb8d30f3013a608e19e3506b4a81ef78aa1abda2dd2",
+  "author_schema_sha256": "b37467efdf5df23893df5f656162009a754fc0120217c4ccc4fefe416d02f4f3",
+  "review_prompt_sha256": "cce2ac8482e900f578f64fc9076798235627772939984aed64fae85c0151cf9f",
+  "tasks_sha256": "9500efc454f4a18c0c190ac725c636bce2639ad9a3d24a893576ef3eb926d21a",
+  "boundaries_sha256": "5b05fb671368a7e7582e89f850d7070b218b9a796e615ee8b48cbb7f648ccf1b",
+  "frame_registry_sha256": "19f4f90ebf1304b1383315890186a56c21fca486f1a48724069c498ed304cb71",
+  "captions_sha256": "796d5c4cb33e5fbddaf8063f465be219cb25f679b7c1287623282faee8a8b740",
+  "slot_banks_sha256": "552705ff51bef60917d0999628b64e7bf1ded4379406356be53b57ed2693e357",
+  "variant_notes_sha256": "b115b151ac725dc6894a8747c6f27d9ed3ced8bb7eb9e97a40031ddc30e67717",
+  "renderer_version": "deterministic-caption-v2",
+  "tasks": 200,
+  "boundaries": 10,
+  "style_frames": 44,
+  "batch_size": 10,
+  "gates": {
+    "schema_success_rate_min": 1.0,
+    "structural_pass_rate_min": 1.0,
+    "blind_direction_accuracy_min": 0.95,
+    "blind_usable_rate_min": 0.95,
+    "exact_train_overlap_max": 0,
+    "copied_13_token_train_spans_max": 0,
+    "exact_duplicate_cards_max": 0,
+    "exact_duplicate_masked_pairs_max": 0,
+    "cross_frame_near_duplicate_edges_ge_0_94_max": 0,
+    "global_all_attempt_cost_usd_max": 10.0
+  },
+  "forbidden_runtime_inputs": [
+    "generated rows, responses, reviews or rendered cards from another run",
+    "supplementary training row texts, rationales or predictions",
+    "public/private leaderboard rows, labels, predictions or IDs",
+    "artifacts not produced by this run"
+  ],
+  "immutability_rule": "Do not edit prompts, slot banks, variant notes, tasks, renderer or gates during a run."
+}

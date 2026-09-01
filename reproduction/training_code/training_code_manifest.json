@@ -1,0 +1,149 @@
+{
+  "contains_credentials": false,
+  "contains_external_eval_data": false,
+  "contains_model_weights": false,
+  "contains_organizer_rows": false,
+  "contains_predictions": false,
+  "contains_supplementary_pair_rows": false,
+  "files": [
+    {
+      "bytes": 827,
+      "path": "DRY_TEST_REPORT.md",
+      "sha256": "36dc6bfcc6a9a9fa845a7bba963c44dfb54c2faf8d0d97c38252efd0131dbd6b"
+    },
+    {
+      "bytes": 1094,
+      "path": "DRY_TEST_REPORT_RU.md",
+      "sha256": "cd168fa6bed6a1c9a395ceece0c937d0655925188ec483c04df3320a902b59dc"
+    },
+    {
+      "bytes": 2493,
+      "path": "HANDOFF.md",
+      "sha256": "aa73374b9acd964e0872e3238e973806f0290dba086089d8a8068c66374d2a39"
+    },
+    {
+      "bytes": 3197,
+      "path": "HANDOFF_RU.md",
+      "sha256": "461d444fc0896df0f98ffe062a7e8cbbc8aa927c1849c64a8a058c792b2b824e"
+    },
+    {
+      "bytes": 12155,
+      "path": "README.md",
+      "sha256": "0d03247707004531653f07bdef692fceb8664380d2c7a31cd6b57922ec9ddf12"
+    },
+    {
+      "bytes": 18538,
+      "path": "README_RU.md",
+      "sha256": "bc43a95d6389e251a62b32dd6b654dcb3f60e16c8509a5eb5211a417986d3b40"
+    },
+    {
+      "bytes": 377,
+      "path": "__init__.py",
+      "sha256": "9d261730327908b4262c84a120126bd21ba900331442136f9273b316820ee27f"
+    },
+    {
+      "bytes": 9024,
+      "path": "build_bundle.py",
+      "sha256": "08008fe2375d28c89b9c33ce24400f5e891de8d13412adb10bfa198a858cf972"
+    },
+    {
+      "bytes": 3762,
+      "path": "config.json",
+      "sha256": "834d6757450f95ef331c17e699f482942e51e1528eef3231cbd3bdbf6e1fb2af"
+    },
+    {
+      "bytes": 11900,
+      "path": "contracts.py",
+      "sha256": "ff0fb39c3c68814c88fcf5d4dfc2955e47918119bb8bff7a219a0009448104fa"
+    },
+    {
+      "bytes": 9558,
+      "path": "create_execution_plan.py",
+      "sha256": "89ee85e8dae2a2b3b907730d0a17a3798ad85b4280b8dab577aaab6f93446cd6"
+    },
+    {
+      "bytes": 38963,
+      "path": "data_contracts.py",
+      "sha256": "fe9b2415897eca1903bc36674b19eb19c1d7a32bb7d9f711f268cf7362bbe562"
+    },
+    {
+      "bytes": 8220,
+      "path": "evaluate_q4_gate.py",
+      "sha256": "1831fdf9fe7da1605bfeffaa67b2800f8153771f2cf91a5c67d5c10e064dfeb3"
+    },
+    {
+      "bytes": 17790,
+      "path": "fit_selector.py",
+      "sha256": "3603fea7ce3d49b04acc6ef7f1cb0539a922c0b1d63e087d422172be3d960667"
+    },
+    {
+      "bytes": 3027,
+      "path": "freeze_recipe.py",
+      "sha256": "fc39a3a0c2b515f19c78363434ee6be3f5e9f9b3cef2cec707f1d6897f14d952"
+    },
+    {
+      "bytes": 2832,
+      "path": "freeze_training_code.py",
+      "sha256": "ff043718b544c6ac3415bac3558f13b0aad23e6a1d0bfcaf61987edcd1836078"
+    },
+    {
+      "bytes": 13691,
+      "path": "modeling.py",
+      "sha256": "b5f42cccbd4a10c156b3edb6873b0c6168a72a107137018c62257dc87fe0000e"
+    },
+    {
+      "bytes": 7904,
+      "path": "organizer_cpu_dry_run.py",
+      "sha256": "fd1faa8306742f978cea428a7b84c39d2cfab385c550fe7b697749fd1312a01c"
+    },
+    {
+      "bytes": 12766,
+      "path": "prepare_manifests.py",
+      "sha256": "8f7afe2fff16223771a5ba9b77e21d574e5bf211197cc288cb7e221878ad2abb"
+    },
+    {
+      "bytes": 1684,
+      "path": "refresh_training_manifest.py",
+      "sha256": "7f53e366a79368b27255c2fb18026bc36fa03d5badf04f10cec40f02f40dfd0f"
+    },
+    {
+      "bytes": 250,
+      "path": "requirements.lock",
+      "sha256": "3f65040a758d3ad9776c80911dac620e5540641756b273a0814dfe7f0860322e"
+    },
+    {
+      "bytes": 8494,
+      "path": "schedules.py",
+      "sha256": "89317e1adebabd079b0803708cf1c02aa6a8c74b1067928e4ec4061ac8bfc183"
+    },
+    {
+      "bytes": 9568,
+      "path": "score_lora.py",
+      "sha256": "2bd67c0e03c46c1ee4014cee602f5b4e5e20e06ce1bf5281e609c5ea62d6cc1b"
+    },
+    {
+      "bytes": 6859,
+      "path": "selector_features.py",
+      "sha256": "567ffd6d1238a3053251b3e900eb0d55d9bc3d3d8bacacc76b13ed35db62d662"
+    },
+    {
+      "bytes": 738,
+      "path": "submission_manifest.example.json",
+      "sha256": "7b4ecd0c79c911f7a20594fd3744c6f021cde166bead96cb948803c87ca4a9e2"
+    },
+    {
+      "bytes": 25999,
+      "path": "tests/test_v170_reproduction_training.py",
+      "sha256": "bd0688cf74b6f2b3f6fc09faa755b391a4c933eb9eaf2570a7b38c8a8e271cf6"
+    },
+    {
+      "bytes": 17105,
+      "path": "train_lora.py",
+      "sha256": "2395cf8988d7af95117044d8b92d02368c284f98afe2c85cfd4121ad09604569"
+    }
+  ],
+  "schema_version": "v170.training_code_snapshot.2",
+  "self_sha256": "3648c3aa21ef99c2d2d430f56edee1621574d75ee7430e17a2a7738b9e081e07",
+  "source_directory": "training_code",
+  "status": "COMPLETE"
+}

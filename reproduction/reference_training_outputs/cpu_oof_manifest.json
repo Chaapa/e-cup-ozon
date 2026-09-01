@@ -1,0 +1,30 @@
+{
+  "columns": [
+    "id",
+    "fold",
+    "label",
+    "b1_score",
+    "b1_prediction",
+    "char_score",
+    "char_prediction"
+  ],
+  "contains_images": false,
+  "contains_raw_organizer_rows": false,
+  "contains_text_surfaces": false,
+  "file": {
+    "bytes": 118462,
+    "path": "cpu_oof.local_only.parquet",
+    "sha256": "25b61758986dfb324124143ea2323add907f86b6f2003d6a304f82c98a85c26b"
+  },
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": 5502,
+  "schema_version": "flv.cpu_oof.artifact.1",
+  "self_sha256": "f72e92f30b2cab85db57e25530c8ba18f85c41fb2e5edc0d6ae28b0eae2723e1",
+  "status": "COMPLETE"
+}

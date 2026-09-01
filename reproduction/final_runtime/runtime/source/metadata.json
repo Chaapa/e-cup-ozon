@@ -1,0 +1,4 @@
+{
+  "image": "odshack111/ecup26-quality-vllm:v38-cu129-r6-rocache",
+  "entry_point": "python3 -u run.py"
+}

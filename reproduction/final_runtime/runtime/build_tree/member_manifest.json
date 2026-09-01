@@ -1,0 +1,1559 @@
+{
+  "inventory_excludes_self": true,
+  "member_count_excluding_manifest": 310,
+  "members": {
+    "README.md": {
+      "bytes": 1913,
+      "sha256": "b5f1fbe94eed2d011b40cd68a353771b3c1fa71e3de4275e64e7f489760db9a1",
+      "source": "build_tree/README.md"
+    },
+    "artifacts/cpu/b1_full.joblib": {
+      "bytes": 2923208,
+      "sha256": "56119f0c4558e55ee812f981b0a1f2723046799d953c10237dccfa8b1c7bde8e",
+      "source": "bundled_runtime/artifacts/cpu/b1_full.joblib"
+    },
+    "artifacts/cpu/char_full.joblib": {
+      "bytes": 1084305,
+      "sha256": "4f6b533ed991b34b76055095f12c01698e6097a941f4d24e857aa8471f417488",
+      "source": "bundled_runtime/artifacts/cpu/char_full.joblib"
+    },
+    "artifacts/cpu/selector_augmented_fold01234.cbm": {
+      "bytes": 273944,
+      "sha256": "417a803b845854d4d0e9fd3dc28271e970f4111894c2ed98fa5042f62efbbb90",
+      "source": "bundled_runtime/artifacts/cpu/selector_augmented_fold01234.cbm"
+    },
+    "artifacts/lora/candidate/checkpoint_025/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "236808de73e5848b8666b456d70f8aaf655c6b05919f1719a45f87d3d2223a7a",
+      "source": "bundled_runtime/artifacts/lora/candidate/checkpoint_025/adapter_config.json"
+    },
+    "artifacts/lora/candidate/checkpoint_025/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "7ef03a20c4f8e33c5bb81fce667b84050ac91df4a30149fdc3fe1d12c2899f14",
+      "source": "bundled_runtime/artifacts/lora/candidate/checkpoint_025/adapter_model.safetensors"
+    },
+    "artifacts/lora/candidate/checkpoint_050/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "236808de73e5848b8666b456d70f8aaf655c6b05919f1719a45f87d3d2223a7a",
+      "source": "bundled_runtime/artifacts/lora/candidate/checkpoint_050/adapter_config.json"
+    },
+    "artifacts/lora/candidate/checkpoint_050/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "5c57a36aaefabf0cb097b25b3f2b36e65df689384e04006b449b01cb73f105da",
+      "source": "bundled_runtime/artifacts/lora/candidate/checkpoint_050/adapter_model.safetensors"
+    },
+    "artifacts/lora/candidate/checkpoint_100/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "236808de73e5848b8666b456d70f8aaf655c6b05919f1719a45f87d3d2223a7a",
+      "source": "bundled_runtime/artifacts/lora/candidate/checkpoint_100/adapter_config.json"
+    },
+    "artifacts/lora/candidate/checkpoint_100/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "135f09d3e953c29ea67321d0d2be3eaf3bf0c46ee3f2c647b9d2439466666b80",
+      "source": "bundled_runtime/artifacts/lora/candidate/checkpoint_100/adapter_model.safetensors"
+    },
+    "artifacts/lora/control/checkpoint_025/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7",
+      "source": "bundled_runtime/artifacts/lora/control/checkpoint_025/adapter_config.json"
+    },
+    "artifacts/lora/control/checkpoint_025/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "59fc3cdb222507c955a35480c274ff023311d7ccc6038a5b2d72864ccd80355d",
+      "source": "bundled_runtime/artifacts/lora/control/checkpoint_025/adapter_model.safetensors"
+    },
+    "artifacts/lora/control/checkpoint_050/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7",
+      "source": "bundled_runtime/artifacts/lora/control/checkpoint_050/adapter_config.json"
+    },
+    "artifacts/lora/control/checkpoint_050/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "a1f8035b398ba5eb0792ef4444d4d06aab0c8f02947f8d9436c55c26cb5dfb49",
+      "source": "bundled_runtime/artifacts/lora/control/checkpoint_050/adapter_model.safetensors"
+    },
+    "artifacts/lora/control/checkpoint_100/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7",
+      "source": "bundled_runtime/artifacts/lora/control/checkpoint_100/adapter_config.json"
+    },
+    "artifacts/lora/control/checkpoint_100/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "0f35589cdb20bef79329c49afbf9d448250c37a944b56f272b7a270143373fad",
+      "source": "bundled_runtime/artifacts/lora/control/checkpoint_100/adapter_model.safetensors"
+    },
+    "artifacts/production_manifest.json": {
+      "bytes": 8265,
+      "sha256": "daf4c9807824012aa00043199f11c0b2a158120ef9b2a326f86a24a8ce3b8d27",
+      "source": "build_tree/artifacts/production_manifest.json"
+    },
+    "bad_vllm_worker.py": {
+      "bytes": 14854,
+      "sha256": "664e0b665a85c364bd550f4f017742f14985334ea061ae309ed5c5fb754c010b",
+      "source": "build_tree/bad_vllm_worker.py"
+    },
+    "metadata.json": {
+      "bytes": 107,
+      "sha256": "9319d3dcc82289bece4e66911646f0a12a9f36c325be7daa037d2018b6647a15",
+      "source": "build_tree/metadata.json"
+    },
+    "run.py": {
+      "bytes": 24181,
+      "sha256": "f8494a5e7a4deb70e0303184ccd35ee7dc90946f712be4d199a0c0a500707447",
+      "source": "build_tree/run.py"
+    },
+    "src/__init__.py": {
+      "bytes": 56,
+      "sha256": "7f43fd38a8ac797b3f0d450c891203d743d71c0c45c727020b0c42a23f2761c5",
+      "source": "build_tree/src/__init__.py"
+    },
+    "src/constants.py": {
+      "bytes": 1670,
+      "sha256": "026f89554cd97c9658bfffd5c251cff21e5ec32f975533ea67934743c7b4f3de",
+      "source": "build_tree/src/constants.py"
+    },
+    "src/postprocess.py": {
+      "bytes": 2931,
+      "sha256": "2465dfd661bc43303905bd5b80150076f2497f486e14b9d6e93b89d52fb188cc",
+      "source": "build_tree/src/postprocess.py"
+    },
+    "src/reasoning_comments.py": {
+      "bytes": 17701,
+      "sha256": "3044672e271d860e6aef6aeb45d1caffad59b8341793146e141db0b641445f9b",
+      "source": "build_tree/src/reasoning_comments.py"
+    },
+    "src/v108_sheets.py": {
+      "bytes": 7863,
+      "sha256": "57e9abce7921f239ab11530c5c9aec2e618c1db377647a2c6420ccdce5734476",
+      "source": "build_tree/src/v108_sheets.py"
+    },
+    "src/v115_round7_runtime_features.py": {
+      "bytes": 7868,
+      "sha256": "0fc9407d58369fd556f03b41380eb79a30afe9cd6aa0a646bed0bbaab1a8fccb",
+      "source": "build_tree/src/v115_round7_runtime_features.py"
+    },
+    "src/v116_model.py": {
+      "bytes": 18653,
+      "sha256": "09365ad052abb2267b8ef05664d21c720a979f9a921c0e44a99935bdba3e2cd1",
+      "source": "build_tree/src/v116_model.py"
+    },
+    "vendor/peft/__init__.py": {
+      "bytes": 7715,
+      "sha256": "a01f167e830f9795a5312d78746536b593b080dd32bbb4c5ebc1224736ecec3f",
+      "source": "bundled_runtime/vendor/peft/__init__.py"
+    },
+    "vendor/peft/auto.py": {
+      "bytes": 9306,
+      "sha256": "cb31d32a9bbb695b09e152bd94f5885428abba0876ce702a46908df5b07acbd6",
+      "source": "bundled_runtime/vendor/peft/auto.py"
+    },
+    "vendor/peft/config.py": {
+      "bytes": 17103,
+      "sha256": "9e1d9dd0979dc55112c4c39e0e9cd729bb444bd270697c620f52bf5d83b16ad7",
+      "source": "bundled_runtime/vendor/peft/config.py"
+    },
+    "vendor/peft/functional.py": {
+      "bytes": 1284,
+      "sha256": "da003f554a1099cb1a1f4000ec684b22c39cfcd2e36bc10a6e3c4e863e63a27a",
+      "source": "bundled_runtime/vendor/peft/functional.py"
+    },
+    "vendor/peft/helpers.py": {
+      "bytes": 22015,
+      "sha256": "b37055288f77c39fc4dd6d1085aa675d107c2448d023f83012905050fe4c0d90",
+      "source": "bundled_runtime/vendor/peft/helpers.py"
+    },
+    "vendor/peft/import_utils.py": {
+      "bytes": 6748,
+      "sha256": "130fa43be43884465857e842a10579d0d192c034f0b0cfef7e8048d3bbf7f5e2",
+      "source": "bundled_runtime/vendor/peft/import_utils.py"
+    },
+    "vendor/peft/mapping.py": {
+      "bytes": 3878,
+      "sha256": "f1ce3f9f7da000d0f374b03ef30a213b58dc62e1ab0cb5d879c46cfd173832b7",
+      "source": "bundled_runtime/vendor/peft/mapping.py"
+    },
+    "vendor/peft/mapping_func.py": {
+      "bytes": 5898,
+      "sha256": "714db3bc17ac5d3d72baea44a29f836199da731cecc7e96f9cf367ebcd6089a1",
+      "source": "bundled_runtime/vendor/peft/mapping_func.py"
+    },
+    "vendor/peft/mixed_model.py": {
+      "bytes": 21167,
+      "sha256": "d18824eacee771009911acae0c8e81fd9d735c7aad9f5520e90a677d629a0f08",
+      "source": "bundled_runtime/vendor/peft/mixed_model.py"
+    },
+    "vendor/peft/optimizers/__init__.py": {
+      "bytes": 760,
+      "sha256": "53d6fa3cfa0067b5da3af11a3fc24d490b0218d1f1ca0aedffcb2b3316417721",
+      "source": "bundled_runtime/vendor/peft/optimizers/__init__.py"
+    },
+    "vendor/peft/optimizers/lorafa.py": {
+      "bytes": 14889,
+      "sha256": "b9f1616b3120796bd765bc2bd59390bc998d5f81b0b66bf26d58129e2e0bc82b",
+      "source": "bundled_runtime/vendor/peft/optimizers/lorafa.py"
+    },
+    "vendor/peft/optimizers/loraplus.py": {
+      "bytes": 4735,
+      "sha256": "ccb61a4fa7502ebd11eb92d35d78b6cf6b4b933485a4858a63d1eff191ea1944",
+      "source": "bundled_runtime/vendor/peft/optimizers/loraplus.py"
+    },
+    "vendor/peft/peft_model.py": {
+      "bytes": 172535,
+      "sha256": "c07bf9545b3b17ea0363263b11fc25d0a2ebe814e3f8083da3fa08adaa824879",
+      "source": "bundled_runtime/vendor/peft/peft_model.py"
+    },
+    "vendor/peft/py.typed": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "bundled_runtime/vendor/peft/py.typed"
+    },
+    "vendor/peft/tuners/__init__.py": {
+      "bytes": 5196,
+      "sha256": "40bfa83d583caaed9956aaf42d20bc86654c7940f599215f4f3348e3b24e2f0b",
+      "source": "bundled_runtime/vendor/peft/tuners/__init__.py"
+    },
+    "vendor/peft/tuners/_buffer_dict.py": {
+      "bytes": 5529,
+      "sha256": "5acdea1795df4baa776074e641bdcc0c675c1c07f0cdd9367933ec8775eeca57",
+      "source": "bundled_runtime/vendor/peft/tuners/_buffer_dict.py"
+    },
+    "vendor/peft/tuners/adalora/__init__.py": {
+      "bytes": 1534,
+      "sha256": "c493f7dbda463eaea6cd1abd093af6b19ee7e3e66bd0ac62995262e5c5e1fa82",
+      "source": "bundled_runtime/vendor/peft/tuners/adalora/__init__.py"
+    },
+    "vendor/peft/tuners/adalora/bnb.py": {
+      "bytes": 5426,
+      "sha256": "751d7d922489126c6d71b0c099a94b17127e584e5093114f1dbdf2dfa6e3f028",
+      "source": "bundled_runtime/vendor/peft/tuners/adalora/bnb.py"
+    },
+    "vendor/peft/tuners/adalora/config.py": {
+      "bytes": 5892,
+      "sha256": "b46d65aa5e43c8a20ce1fa2b83f3f7cc74c9f577826371a9dd1d626c1830ac29",
+      "source": "bundled_runtime/vendor/peft/tuners/adalora/config.py"
+    },
+    "vendor/peft/tuners/adalora/gptq.py": {
+      "bytes": 2672,
+      "sha256": "32df2dcfb8fce050436c96c7d310f54aced1e5162b6c84633df8b9d8d307d97e",
+      "source": "bundled_runtime/vendor/peft/tuners/adalora/gptq.py"
+    },
+    "vendor/peft/tuners/adalora/layer.py": {
+      "bytes": 22174,
+      "sha256": "fea21a311da946eceb85d7d72e9bf36cf71dc090a1b2a452cae5002d8d7c8701",
+      "source": "bundled_runtime/vendor/peft/tuners/adalora/layer.py"
+    },
+    "vendor/peft/tuners/adalora/model.py": {
+      "bytes": 15502,
+      "sha256": "23f240fb9b08391c2505d7ce17456e6f1e3f2f4c45c5fe9884236b00a60cc5c0",
+      "source": "bundled_runtime/vendor/peft/tuners/adalora/model.py"
+    },
+    "vendor/peft/tuners/adamss/__init__.py": {
+      "bytes": 1006,
+      "sha256": "fcbe1130982820c98fefb16154ebee1809794fcf2222f4d7d45b21db1067bb1a",
+      "source": "bundled_runtime/vendor/peft/tuners/adamss/__init__.py"
+    },
+    "vendor/peft/tuners/adamss/asa_callback.py": {
+      "bytes": 3209,
+      "sha256": "5781bee6a4526cb58037b4f720a446269f854c7b9f01e6587660c8236e71f54d",
+      "source": "bundled_runtime/vendor/peft/tuners/adamss/asa_callback.py"
+    },
+    "vendor/peft/tuners/adamss/config.py": {
+      "bytes": 19258,
+      "sha256": "fb8d79019d96057d6a112fc2e4e29dac4cc32d6fb3cd35d46343c06477f0b531",
+      "source": "bundled_runtime/vendor/peft/tuners/adamss/config.py"
+    },
+    "vendor/peft/tuners/adamss/layer.py": {
+      "bytes": 28978,
+      "sha256": "77edd1c2bbca38cdc6b3e7588f06b9f82cb0655db1487cebf0d64da98be45045",
+      "source": "bundled_runtime/vendor/peft/tuners/adamss/layer.py"
+    },
+    "vendor/peft/tuners/adamss/model.py": {
+      "bytes": 11393,
+      "sha256": "bd8689a1012adbb2c52c70743414c6037680ecf0fbda37db65bdefcff0848cfe",
+      "source": "bundled_runtime/vendor/peft/tuners/adamss/model.py"
+    },
+    "vendor/peft/tuners/adamss/utils.py": {
+      "bytes": 4845,
+      "sha256": "6902b074be36cd2c85e4a9482b0fb57a49c6666bf7dfe78d037b61ec8316d814",
+      "source": "bundled_runtime/vendor/peft/tuners/adamss/utils.py"
+    },
+    "vendor/peft/tuners/adaption_prompt/__init__.py": {
+      "bytes": 949,
+      "sha256": "0b7beb754c95ef4e3695a9fb6378eb45eafbf84125c4736f77d2ecbf04961c27",
+      "source": "bundled_runtime/vendor/peft/tuners/adaption_prompt/__init__.py"
+    },
+    "vendor/peft/tuners/adaption_prompt/config.py": {
+      "bytes": 3157,
+      "sha256": "382f51d23b5cf190a412f33853d0c3133afd741635ce7b055162da4ac0b9e6d3",
+      "source": "bundled_runtime/vendor/peft/tuners/adaption_prompt/config.py"
+    },
+    "vendor/peft/tuners/adaption_prompt/layer.py": {
+      "bytes": 9687,
+      "sha256": "f5db61bc3f219ce59d9eaa1d7b7aee773df2be80948ca23e7b783b202c0ca1a4",
+      "source": "bundled_runtime/vendor/peft/tuners/adaption_prompt/layer.py"
+    },
+    "vendor/peft/tuners/adaption_prompt/model.py": {
+      "bytes": 8045,
+      "sha256": "3cfb86f4bbdc5599fe944b258e77a8bd6c286a3e97e8d26bcd41760c774576bd",
+      "source": "bundled_runtime/vendor/peft/tuners/adaption_prompt/model.py"
+    },
+    "vendor/peft/tuners/adaption_prompt/utils.py": {
+      "bytes": 7183,
+      "sha256": "47b3e802bc3b23288f6937988a8e26462626584bcd9ae7381bfda64359905b3e",
+      "source": "bundled_runtime/vendor/peft/tuners/adaption_prompt/utils.py"
+    },
+    "vendor/peft/tuners/beft/__init__.py": {
+      "bytes": 909,
+      "sha256": "0f89d157d30dde108248385e2755d36b3b182c28eca3464e47213a661a7f7e72",
+      "source": "bundled_runtime/vendor/peft/tuners/beft/__init__.py"
+    },
+    "vendor/peft/tuners/beft/config.py": {
+      "bytes": 3357,
+      "sha256": "c654cdbe3e875611af290f6ee8598edb14ca6d3ce36600a8f80d0558e19788f3",
+      "source": "bundled_runtime/vendor/peft/tuners/beft/config.py"
+    },
+    "vendor/peft/tuners/beft/layer.py": {
+      "bytes": 6580,
+      "sha256": "aa42b3108a097bc1700c309e15249697f37c7080a80b3f23bb95682d9a3ca4af",
+      "source": "bundled_runtime/vendor/peft/tuners/beft/layer.py"
+    },
+    "vendor/peft/tuners/beft/model.py": {
+      "bytes": 3666,
+      "sha256": "70679256095e848bfd53a10334a1e488cca76e0e133f5f8e9721860ce368be1c",
+      "source": "bundled_runtime/vendor/peft/tuners/beft/model.py"
+    },
+    "vendor/peft/tuners/boft/__init__.py": {
+      "bytes": 865,
+      "sha256": "339473a7344c721801ba096c192eab02071cd5c393ad98919fe703de273db174",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/__init__.py"
+    },
+    "vendor/peft/tuners/boft/config.py": {
+      "bytes": 9520,
+      "sha256": "f929b421b4620a9ab400ef37942a91a5e89716e7a8f4e12476b1d3ecdfd24281",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/config.py"
+    },
+    "vendor/peft/tuners/boft/fbd/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/fbd/__init__.py"
+    },
+    "vendor/peft/tuners/boft/fbd/fbd_cuda.cpp": {
+      "bytes": 815,
+      "sha256": "c3d3e7cb59c6cb211123a5668e7c61f8b85b3fbebd68bd1728364873f9c0cb8f",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/fbd/fbd_cuda.cpp"
+    },
+    "vendor/peft/tuners/boft/fbd/fbd_cuda_kernel.cu": {
+      "bytes": 3076,
+      "sha256": "4a016b670f968c9acec6af90deaba0c0b028238801583a891a59dfa0f82940fb",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/fbd/fbd_cuda_kernel.cu"
+    },
+    "vendor/peft/tuners/boft/layer.py": {
+      "bytes": 42030,
+      "sha256": "1a94f2a6d3d216b3fe9ad226b0f46eab0b00b7efcdbd6e62fa5c82f1f5ffa35c",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/layer.py"
+    },
+    "vendor/peft/tuners/boft/model.py": {
+      "bytes": 5165,
+      "sha256": "9808b00b14574b5da433842d55c316991771947b7eeb6f43e2c6bf5e7a53a8fb",
+      "source": "bundled_runtime/vendor/peft/tuners/boft/model.py"
+    },
+    "vendor/peft/tuners/c3a/__init__.py": {
+      "bytes": 879,
+      "sha256": "7eface4871ed6c9d986cb7390773515d38fd297718033ea866aa648060fc1199",
+      "source": "bundled_runtime/vendor/peft/tuners/c3a/__init__.py"
+    },
+    "vendor/peft/tuners/c3a/config.py": {
+      "bytes": 6824,
+      "sha256": "e69eb6d0b48197b87997084d2b2cdd3a06d61cd8dc4bc0e8e6b02e91910650e1",
+      "source": "bundled_runtime/vendor/peft/tuners/c3a/config.py"
+    },
+    "vendor/peft/tuners/c3a/layer.py": {
+      "bytes": 8710,
+      "sha256": "622e00963633e095e7302d914be7f813747d84671dcd3388c71431e0c423796d",
+      "source": "bundled_runtime/vendor/peft/tuners/c3a/layer.py"
+    },
+    "vendor/peft/tuners/c3a/model.py": {
+      "bytes": 3524,
+      "sha256": "20e09e298c38564afffb0eab1042437716ca8d821976a7304615e7aa8be304f4",
+      "source": "bundled_runtime/vendor/peft/tuners/c3a/model.py"
+    },
+    "vendor/peft/tuners/c3a/utils.py": {
+      "bytes": 1767,
+      "sha256": "f9ba17f97bbc87f6b73a639c16c39e8a571e50e55a9c5298460ab86c6fad107d",
+      "source": "bundled_runtime/vendor/peft/tuners/c3a/utils.py"
+    },
+    "vendor/peft/tuners/cartridge/__init__.py": {
+      "bytes": 864,
+      "sha256": "aac9bdeae00eff6b3e3e25dd2b90bea11fd52493582f7d0a16fa4d2735d04b23",
+      "source": "bundled_runtime/vendor/peft/tuners/cartridge/__init__.py"
+    },
+    "vendor/peft/tuners/cartridge/config.py": {
+      "bytes": 3509,
+      "sha256": "419742860a2d3c298bc81ba0b3a0aebacde0c669fa6258315f3308357f5298b5",
+      "source": "bundled_runtime/vendor/peft/tuners/cartridge/config.py"
+    },
+    "vendor/peft/tuners/cartridge/model.py": {
+      "bytes": 4793,
+      "sha256": "bdd74d765dc33fe2b36c1397746c8c16a4de256287784b5e7418cd56cc182e6d",
+      "source": "bundled_runtime/vendor/peft/tuners/cartridge/model.py"
+    },
+    "vendor/peft/tuners/cartridge/utils.py": {
+      "bytes": 9601,
+      "sha256": "fcb9cd27f981e858197f89e8faf889a9a2e09c4a8e6b884ddcf718b9e210f9d7",
+      "source": "bundled_runtime/vendor/peft/tuners/cartridge/utils.py"
+    },
+    "vendor/peft/tuners/cpt/__init__.py": {
+      "bytes": 829,
+      "sha256": "7917ad754554b711e6ec873f624194bc2ae59a41a31c464e416e3cc254fa9435",
+      "source": "bundled_runtime/vendor/peft/tuners/cpt/__init__.py"
+    },
+    "vendor/peft/tuners/cpt/config.py": {
+      "bytes": 4158,
+      "sha256": "e897a5fbf95e8468bc9c8b80f805e94cfb2921cf35090c331428bdf3550010d2",
+      "source": "bundled_runtime/vendor/peft/tuners/cpt/config.py"
+    },
+    "vendor/peft/tuners/cpt/model.py": {
+      "bytes": 8451,
+      "sha256": "096698b8a6b4e691847c8564b4ba81c9b87c3b543bf75bba3e39579bb02124f9",
+      "source": "bundled_runtime/vendor/peft/tuners/cpt/model.py"
+    },
+    "vendor/peft/tuners/deft/__init__.py": {
+      "bytes": 891,
+      "sha256": "3d4beb3e1ca01f2c00f1550ade7aa0b7456ba1000ff480bf70165b4c1f39e4b0",
+      "source": "bundled_runtime/vendor/peft/tuners/deft/__init__.py"
+    },
+    "vendor/peft/tuners/deft/config.py": {
+      "bytes": 11034,
+      "sha256": "2430595567d6eeb7cf612969a58e06743dab0bf886d1da7c0989c3935a19159e",
+      "source": "bundled_runtime/vendor/peft/tuners/deft/config.py"
+    },
+    "vendor/peft/tuners/deft/layer.py": {
+      "bytes": 18396,
+      "sha256": "5abe6d05d31394d96a484456a49882d504e8e06552df3102f93b7f076f39dc9b",
+      "source": "bundled_runtime/vendor/peft/tuners/deft/layer.py"
+    },
+    "vendor/peft/tuners/deft/model.py": {
+      "bytes": 4411,
+      "sha256": "13d376142dda0b8590b30d8e9bea81894014384734d9c11e07fa0906fbd292ef",
+      "source": "bundled_runtime/vendor/peft/tuners/deft/model.py"
+    },
+    "vendor/peft/tuners/delora/__init__.py": {
+      "bytes": 912,
+      "sha256": "55425f946256a327703ebb39172d582ff41ff57fc6c5443612f5cbcdad561c92",
+      "source": "bundled_runtime/vendor/peft/tuners/delora/__init__.py"
+    },
+    "vendor/peft/tuners/delora/config.py": {
+      "bytes": 9251,
+      "sha256": "977e10519d68b358a062449b3993c0172648ed908b5bd5939fdf3659a9a04062",
+      "source": "bundled_runtime/vendor/peft/tuners/delora/config.py"
+    },
+    "vendor/peft/tuners/delora/layer.py": {
+      "bytes": 10481,
+      "sha256": "b86da0419d3e4d612249841eb904fe9c32eb653ff6905cad87df73c4fd084869",
+      "source": "bundled_runtime/vendor/peft/tuners/delora/layer.py"
+    },
+    "vendor/peft/tuners/delora/model.py": {
+      "bytes": 4018,
+      "sha256": "6123ca858ab82fdfd1b2fc7f44bd9dbf57fc026448c2c2e77c8b1e63cff4ffc7",
+      "source": "bundled_runtime/vendor/peft/tuners/delora/model.py"
+    },
+    "vendor/peft/tuners/fourierft/__init__.py": {
+      "bytes": 946,
+      "sha256": "98cf7f419c7d397ea21afe9b7545f7380ef5ed2e09d765c7075ee89677b2a050",
+      "source": "bundled_runtime/vendor/peft/tuners/fourierft/__init__.py"
+    },
+    "vendor/peft/tuners/fourierft/config.py": {
+      "bytes": 12215,
+      "sha256": "a780908013ab6a295503da45e959bc5fbd5658da87b3f59731b3758af902209f",
+      "source": "bundled_runtime/vendor/peft/tuners/fourierft/config.py"
+    },
+    "vendor/peft/tuners/fourierft/layer.py": {
+      "bytes": 8837,
+      "sha256": "314e59317aaa428dd4d809e3299fd63bdc65517b479b406fa9060f04a1160fa4",
+      "source": "bundled_runtime/vendor/peft/tuners/fourierft/layer.py"
+    },
+    "vendor/peft/tuners/fourierft/model.py": {
+      "bytes": 4619,
+      "sha256": "45d0bf00ab2a1c26253cbc8d6656f7b61918ccb6f9d8deb33f2c43a3016dcbbc",
+      "source": "bundled_runtime/vendor/peft/tuners/fourierft/model.py"
+    },
+    "vendor/peft/tuners/frod/__init__.py": {
+      "bytes": 899,
+      "sha256": "bb0fa125074f5b5fd837fe40cd64c36816cab015d2c36fb92d2e41e529e5de7d",
+      "source": "bundled_runtime/vendor/peft/tuners/frod/__init__.py"
+    },
+    "vendor/peft/tuners/frod/config.py": {
+      "bytes": 9366,
+      "sha256": "cc455f318204453767f0bbf955d5689a5a5e3c5baf6512d27fa0fd849b38b352",
+      "source": "bundled_runtime/vendor/peft/tuners/frod/config.py"
+    },
+    "vendor/peft/tuners/frod/layer.py": {
+      "bytes": 19804,
+      "sha256": "9c1b4c1d31f3562a5dc16c88b5c7cf9b8c2102d5784847777b2b915d37c7a2fb",
+      "source": "bundled_runtime/vendor/peft/tuners/frod/layer.py"
+    },
+    "vendor/peft/tuners/frod/model.py": {
+      "bytes": 13241,
+      "sha256": "9cb76c0b9cc6a1a50c131d04a89eb1fd9b113b1beb539775a420179c1c7b351f",
+      "source": "bundled_runtime/vendor/peft/tuners/frod/model.py"
+    },
+    "vendor/peft/tuners/glora/__init__.py": {
+      "bytes": 902,
+      "sha256": "d8af422ee7e5261164dbf091a303a67a03daf56a61201cf59f7d3828788b1ba6",
+      "source": "bundled_runtime/vendor/peft/tuners/glora/__init__.py"
+    },
+    "vendor/peft/tuners/glora/config.py": {
+      "bytes": 6636,
+      "sha256": "260e572eed93a75966bf79be4ddbec1c6671975e9d08441488ba429d9d3cf2ae",
+      "source": "bundled_runtime/vendor/peft/tuners/glora/config.py"
+    },
+    "vendor/peft/tuners/glora/layer.py": {
+      "bytes": 16884,
+      "sha256": "68411d2ed26c4e83d3aee15eb98101ba93281d1073fb527109fa6b135902296d",
+      "source": "bundled_runtime/vendor/peft/tuners/glora/layer.py"
+    },
+    "vendor/peft/tuners/glora/model.py": {
+      "bytes": 4144,
+      "sha256": "ff8ea1bb1db4e373e5fe98ae73fe9d58133e641734024a95eabdcde7f68e11b0",
+      "source": "bundled_runtime/vendor/peft/tuners/glora/model.py"
+    },
+    "vendor/peft/tuners/gralora/__init__.py": {
+      "bytes": 892,
+      "sha256": "e5f1af02126247abe121f2f7c7b994a70a5038dc3e30b3cbf82baac368d9713b",
+      "source": "bundled_runtime/vendor/peft/tuners/gralora/__init__.py"
+    },
+    "vendor/peft/tuners/gralora/config.py": {
+      "bytes": 10405,
+      "sha256": "520c7f1445c87f1d3b828ab81854f1cdaed72090965900c73830294925490528",
+      "source": "bundled_runtime/vendor/peft/tuners/gralora/config.py"
+    },
+    "vendor/peft/tuners/gralora/layer.py": {
+      "bytes": 15853,
+      "sha256": "315ed4395ee89a3017910b612542090870eee41db27b3af65c15bca51b8fa9ed",
+      "source": "bundled_runtime/vendor/peft/tuners/gralora/layer.py"
+    },
+    "vendor/peft/tuners/gralora/model.py": {
+      "bytes": 4472,
+      "sha256": "1b5cff4c2512e88697982f1c636348b87fc8240a19d1518be5dcfa4046cdf6fd",
+      "source": "bundled_runtime/vendor/peft/tuners/gralora/model.py"
+    },
+    "vendor/peft/tuners/hira/__init__.py": {
+      "bytes": 1341,
+      "sha256": "ac8ced36d65f29f91c0cb7829d90592439099452848fc87aa329347e8e4fb1f1",
+      "source": "bundled_runtime/vendor/peft/tuners/hira/__init__.py"
+    },
+    "vendor/peft/tuners/hira/bnb.py": {
+      "bytes": 20881,
+      "sha256": "2a08e6b013e046aed63788cd380a30940dc4ba8a53048d0eb09933d90e2ca815",
+      "source": "bundled_runtime/vendor/peft/tuners/hira/bnb.py"
+    },
+    "vendor/peft/tuners/hira/config.py": {
+      "bytes": 9122,
+      "sha256": "58c0b8e3d62e87488cf0155529c7cf04a031144ec0d0649a37bee07d528c6b67",
+      "source": "bundled_runtime/vendor/peft/tuners/hira/config.py"
+    },
+    "vendor/peft/tuners/hira/layer.py": {
+      "bytes": 32435,
+      "sha256": "235639aa8e55be92ed3d68204da3bb064cf69b0f4e0587639b6dba87bc371cfe",
+      "source": "bundled_runtime/vendor/peft/tuners/hira/layer.py"
+    },
+    "vendor/peft/tuners/hira/model.py": {
+      "bytes": 8927,
+      "sha256": "0f2a83be5e44731653ce8afbceccccd9f0c0d407cdce20fcecc96094567bbb5c",
+      "source": "bundled_runtime/vendor/peft/tuners/hira/model.py"
+    },
+    "vendor/peft/tuners/hra/__init__.py": {
+      "bytes": 904,
+      "sha256": "60086572c84a4a4539441e7b820b22e10e7bcde18f220290c0bfc56c277c48a8",
+      "source": "bundled_runtime/vendor/peft/tuners/hra/__init__.py"
+    },
+    "vendor/peft/tuners/hra/config.py": {
+      "bytes": 7041,
+      "sha256": "6571cf497b1b8fd74cccaca5f40932ae6f6195bc8b032a6c101146ce96b4695d",
+      "source": "bundled_runtime/vendor/peft/tuners/hra/config.py"
+    },
+    "vendor/peft/tuners/hra/layer.py": {
+      "bytes": 19001,
+      "sha256": "2b108235f55132b87cbc9cd83ad0528cdf3be3cc05813883a1397a01710e617b",
+      "source": "bundled_runtime/vendor/peft/tuners/hra/layer.py"
+    },
+    "vendor/peft/tuners/hra/model.py": {
+      "bytes": 4501,
+      "sha256": "de39fb410d5283cfba033cbe44f585d5ff8c2e3ef6d13ffb8fb7d9416dd8ecac",
+      "source": "bundled_runtime/vendor/peft/tuners/hra/model.py"
+    },
+    "vendor/peft/tuners/ia3/__init__.py": {
+      "bytes": 1349,
+      "sha256": "92e1ff8f50cb46087cb57bf8ceaa5f4de757a55edc1e4530497f10fca3b0cc38",
+      "source": "bundled_runtime/vendor/peft/tuners/ia3/__init__.py"
+    },
+    "vendor/peft/tuners/ia3/bnb.py": {
+      "bytes": 4668,
+      "sha256": "c1216518237598c7cb8291cf5362a403c8ec4384f3192af62568a66d578be254",
+      "source": "bundled_runtime/vendor/peft/tuners/ia3/bnb.py"
+    },
+    "vendor/peft/tuners/ia3/config.py": {
+      "bytes": 5924,
+      "sha256": "6a576713baf01f25f419d8980c7c318366e171ef561bce0fac5a2d372ac4ddb9",
+      "source": "bundled_runtime/vendor/peft/tuners/ia3/config.py"
+    },
+    "vendor/peft/tuners/ia3/layer.py": {
+      "bytes": 14948,
+      "sha256": "8285ebfc2ab8176183b6141343e834999d0aa6e5c7348f359f9265c7cf96d079",
+      "source": "bundled_runtime/vendor/peft/tuners/ia3/layer.py"
+    },
+    "vendor/peft/tuners/ia3/model.py": {
+      "bytes": 13683,
+      "sha256": "921411f5f6fc5c350ab7db297104ab9636bc8cd8b5e388b566881b384f3eed94",
+      "source": "bundled_runtime/vendor/peft/tuners/ia3/model.py"
+    },
+    "vendor/peft/tuners/lily/__init__.py": {
+      "bytes": 932,
+      "sha256": "bd50bdb43a2e99bc246eb196431c235e1fa46cd66c78285690d326f9ee082a0b",
+      "source": "bundled_runtime/vendor/peft/tuners/lily/__init__.py"
+    },
+    "vendor/peft/tuners/lily/config.py": {
+      "bytes": 14892,
+      "sha256": "bd1f0a2293fb76b9d78a3601233c88dfed05ae7ecd59540a84dd0588844c9689",
+      "source": "bundled_runtime/vendor/peft/tuners/lily/config.py"
+    },
+    "vendor/peft/tuners/lily/layer.py": {
+      "bytes": 6850,
+      "sha256": "f8749cbf880792724912baf541fef0471bc5ecc3eb0f458842124e9137e9bb86",
+      "source": "bundled_runtime/vendor/peft/tuners/lily/layer.py"
+    },
+    "vendor/peft/tuners/lily/model.py": {
+      "bytes": 6416,
+      "sha256": "e963f6d6bac7b7ad23b4ce29c698c8c8c699113c0924d06ec53f1b788cc942e7",
+      "source": "bundled_runtime/vendor/peft/tuners/lily/model.py"
+    },
+    "vendor/peft/tuners/ln_tuning/__init__.py": {
+      "bytes": 852,
+      "sha256": "7924303537b62bbddad74bfc55adf93a06947ef230218743b785f1c3e5bc0cd3",
+      "source": "bundled_runtime/vendor/peft/tuners/ln_tuning/__init__.py"
+    },
+    "vendor/peft/tuners/ln_tuning/config.py": {
+      "bytes": 3406,
+      "sha256": "0f92024f151a609add94fdee781c95478dde2d0d6573c432bcb853e2c93eaf91",
+      "source": "bundled_runtime/vendor/peft/tuners/ln_tuning/config.py"
+    },
+    "vendor/peft/tuners/ln_tuning/layer.py": {
+      "bytes": 4866,
+      "sha256": "adfad570d4b429e558ec0bef20f380f2a7808dfe7ed7bca3f2196f8ac64f6baa",
+      "source": "bundled_runtime/vendor/peft/tuners/ln_tuning/layer.py"
+    },
+    "vendor/peft/tuners/ln_tuning/model.py": {
+      "bytes": 5396,
+      "sha256": "823e383eff2b3248dbe378558ae777ce0fa361086089e985f30556a08bf842ee",
+      "source": "bundled_runtime/vendor/peft/tuners/ln_tuning/model.py"
+    },
+    "vendor/peft/tuners/loha/__init__.py": {
+      "bytes": 943,
+      "sha256": "38da6baa6408cb8e6849af452ed9fe5e4b07c07c8b98f43fade6793a1c0c072f",
+      "source": "bundled_runtime/vendor/peft/tuners/loha/__init__.py"
+    },
+    "vendor/peft/tuners/loha/config.py": {
+      "bytes": 7531,
+      "sha256": "196cef687d3c4ffd74a061af8d11520ad696b96f6cfa8030d171ea21b64e4674",
+      "source": "bundled_runtime/vendor/peft/tuners/loha/config.py"
+    },
+    "vendor/peft/tuners/loha/layer.py": {
+      "bytes": 18377,
+      "sha256": "361054786fea8e2d33e540b6438d9af96c72e4592e1a635a02dd4e21ee507c14",
+      "source": "bundled_runtime/vendor/peft/tuners/loha/layer.py"
+    },
+    "vendor/peft/tuners/loha/model.py": {
+      "bytes": 4431,
+      "sha256": "5f1dd53bfb3c778d4dcc430ec59aa470cc00dd6c4c817903b67d27023e840401",
+      "source": "bundled_runtime/vendor/peft/tuners/loha/model.py"
+    },
+    "vendor/peft/tuners/lokr/__init__.py": {
+      "bytes": 927,
+      "sha256": "8fc278ddb260f2e6821fe2e0197b49d41f3176d98ab5d22ef24d85afa668b1cc",
+      "source": "bundled_runtime/vendor/peft/tuners/lokr/__init__.py"
+    },
+    "vendor/peft/tuners/lokr/config.py": {
+      "bytes": 8325,
+      "sha256": "df10aa2205bb23048cd43d0ad936e4fa3c3ec0a690adb79bcb208eb5de639c7f",
+      "source": "bundled_runtime/vendor/peft/tuners/lokr/config.py"
+    },
+    "vendor/peft/tuners/lokr/layer.py": {
+      "bytes": 19957,
+      "sha256": "be287463b972821c38e6de5307a9569e95c80dc367ba093eaf3e5bcb5c7ffb99",
+      "source": "bundled_runtime/vendor/peft/tuners/lokr/layer.py"
+    },
+    "vendor/peft/tuners/lokr/model.py": {
+      "bytes": 4493,
+      "sha256": "2d98a878de9b5460f3715e977a9771021a84f6a81e617717edb904415bdcff7a",
+      "source": "bundled_runtime/vendor/peft/tuners/lokr/model.py"
+    },
+    "vendor/peft/tuners/lora/__init__.py": {
+      "bytes": 2324,
+      "sha256": "be375a9633335edbe74cc839510152e435ec2861aa8de649090d730612c24c8e",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/__init__.py"
+    },
+    "vendor/peft/tuners/lora/aqlm.py": {
+      "bytes": 3313,
+      "sha256": "65fcbaa74667122d21a06df8715d5e217e6e83f0f996f80c7223195578e39536",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/aqlm.py"
+    },
+    "vendor/peft/tuners/lora/arrow.py": {
+      "bytes": 19814,
+      "sha256": "ebe6e56b3a984e603af2c69a5c52b4a157043e4ecb2f5a652965c03c2968a6e8",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/arrow.py"
+    },
+    "vendor/peft/tuners/lora/awq.py": {
+      "bytes": 3438,
+      "sha256": "d9b0eb5d61253f3cb06ecb1e120a2477b57359eb2453edefc00b71be1b2ec952",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/awq.py"
+    },
+    "vendor/peft/tuners/lora/bnb.py": {
+      "bytes": 26392,
+      "sha256": "96ed6fda63d7c67a4646faea8ba38483e8be8670059a3ac3dd740a99bdab6950",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/bnb.py"
+    },
+    "vendor/peft/tuners/lora/config.py": {
+      "bytes": 65761,
+      "sha256": "bd3048b5d2ce364a98720ff48fed638c5819110ce53e3264a530cb5a9803dc31",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/config.py"
+    },
+    "vendor/peft/tuners/lora/conversion.py": {
+      "bytes": 20362,
+      "sha256": "b3c1d0b62d9e53e7d0e188a0d3a9d535f144b572eb02edc58f3a60ec1c193d07",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/conversion.py"
+    },
+    "vendor/peft/tuners/lora/corda.py": {
+      "bytes": 15981,
+      "sha256": "e52353b70fff43c45ee0b2660c1f8d3b0d29bea41ec9b9707e0ef7cc426bfda1",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/corda.py"
+    },
+    "vendor/peft/tuners/lora/dora.py": {
+      "bytes": 11792,
+      "sha256": "2ff9d222eeada2ec82d6414ad2e0e46b17c6ccb76fc2cc0923a20c079ccf974c",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/dora.py"
+    },
+    "vendor/peft/tuners/lora/eetq.py": {
+      "bytes": 4358,
+      "sha256": "e10f29032f51912b6ecc37697666c2c51463ed0cd2bb0b795fb39fe46be61ba9",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/eetq.py"
+    },
+    "vendor/peft/tuners/lora/eva.py": {
+      "bytes": 34114,
+      "sha256": "fde469da4b3cd7451bb811e67eebe2a06a89e17acf8fb0b41db0f3510a74d455",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/eva.py"
+    },
+    "vendor/peft/tuners/lora/gptq.py": {
+      "bytes": 4502,
+      "sha256": "38db08235ebe14f825f78049464717866bb55fc4845ccdb18fecfb80eaf03dff",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/gptq.py"
+    },
+    "vendor/peft/tuners/lora/hqq.py": {
+      "bytes": 10280,
+      "sha256": "49abe0c06cd1bd0fe357f6868aa734e1b1d95d69970889aee7b616d66b16b713",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/hqq.py"
+    },
+    "vendor/peft/tuners/lora/inc.py": {
+      "bytes": 3076,
+      "sha256": "0984a34fd6de01decc02a5926ea1c11b8939bc0272be654421cfdcb20d6c2b62",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/inc.py"
+    },
+    "vendor/peft/tuners/lora/intruders.py": {
+      "bytes": 8466,
+      "sha256": "039621baaa75ae972224edd3ef929d8305e19f775bbaf19f1550b8e82fde10f8",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/intruders.py"
+    },
+    "vendor/peft/tuners/lora/layer.py": {
+      "bytes": 120599,
+      "sha256": "1ef4e7033ebd01c9c6fbf0fc3837695b75b795c54f8a837b7578e8dfba2251a4",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/layer.py"
+    },
+    "vendor/peft/tuners/lora/loraga.py": {
+      "bytes": 7663,
+      "sha256": "9d48cdeb6e07711749aab39428b42b2c96b341c32aaa57ad62f8b08a46e4bb79",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/loraga.py"
+    },
+    "vendor/peft/tuners/lora/model.py": {
+      "bytes": 53019,
+      "sha256": "bce383b627ccc546d8298569094fb62cd25154354881938ada038c2cc6bf403f",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/model.py"
+    },
+    "vendor/peft/tuners/lora/monteclora.py": {
+      "bytes": 10053,
+      "sha256": "0c23ce8131c014ce3d63c6806d295708080f16962877d5941d16dbdac56eadf2",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/monteclora.py"
+    },
+    "vendor/peft/tuners/lora/te.py": {
+      "bytes": 4522,
+      "sha256": "339b2a5d979997d3fb2d18f79b1ff36ea3ded94359dc537fbdb0acee9f453686",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/te.py"
+    },
+    "vendor/peft/tuners/lora/torchao.py": {
+      "bytes": 6571,
+      "sha256": "8869aa30049445f5bd7fda0aae6d2dc4b95df5a66a5908581b17be3143bb022b",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/torchao.py"
+    },
+    "vendor/peft/tuners/lora/tp_layer.py": {
+      "bytes": 14896,
+      "sha256": "cb6a3af3b1f6de378c02896e8f623a8100c0138c4a535701d23dc3b12a8a5f4e",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/tp_layer.py"
+    },
+    "vendor/peft/tuners/lora/variants.py": {
+      "bytes": 56850,
+      "sha256": "271e4fed2b76baf2eb30824ef0197cff0184df2be5786c93ff06354dd9b1abdf",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/variants.py"
+    },
+    "vendor/peft/tuners/lora/velora.py": {
+      "bytes": 3916,
+      "sha256": "9bcd0cb57fd294260b43b72324c6589a56d97de4eb21db03471a3369a761079b",
+      "source": "bundled_runtime/vendor/peft/tuners/lora/velora.py"
+    },
+    "vendor/peft/tuners/lycoris_utils.py": {
+      "bytes": 10001,
+      "sha256": "3f51de028c233ad1ac21598c2d18c714d0b622e89429701bb11efb63dd1497da",
+      "source": "bundled_runtime/vendor/peft/tuners/lycoris_utils.py"
+    },
+    "vendor/peft/tuners/miss/__init__.py": {
+      "bytes": 891,
+      "sha256": "d24d2e19e82047ce240c4d759dadbe0375d1b167d7f6ce0de21e5aa0bab636ed",
+      "source": "bundled_runtime/vendor/peft/tuners/miss/__init__.py"
+    },
+    "vendor/peft/tuners/miss/config.py": {
+      "bytes": 7779,
+      "sha256": "4811570a6080eb3f2597800aa15c1e626c19de0aa3a178943d9003544787c37e",
+      "source": "bundled_runtime/vendor/peft/tuners/miss/config.py"
+    },
+    "vendor/peft/tuners/miss/layer.py": {
+      "bytes": 16527,
+      "sha256": "9afa0c37eae60b156a4f979f48ce3cd698aad6acdb7efeb372a435b01c60d68a",
+      "source": "bundled_runtime/vendor/peft/tuners/miss/layer.py"
+    },
+    "vendor/peft/tuners/miss/model.py": {
+      "bytes": 5059,
+      "sha256": "aa45196dcbb7851a6e8c424567c924aa63b4a09757b5afc0d8865ce7af5c6417",
+      "source": "bundled_runtime/vendor/peft/tuners/miss/model.py"
+    },
+    "vendor/peft/tuners/mixed/__init__.py": {
+      "bytes": 706,
+      "sha256": "b1e7bb09b3a2249f84f16d5049206d20ae2841f167909394554e71724098cb3c",
+      "source": "bundled_runtime/vendor/peft/tuners/mixed/__init__.py"
+    },
+    "vendor/peft/tuners/mixed/model.py": {
+      "bytes": 13606,
+      "sha256": "ef1a893aab507fde20c037c9de2b24a152b64ea0135fca6f798d22abc94baf19",
+      "source": "bundled_runtime/vendor/peft/tuners/mixed/model.py"
+    },
+    "vendor/peft/tuners/multitask_prompt_tuning/__init__.py": {
+      "bytes": 1000,
+      "sha256": "61169c28f9d1859eb76d6f04993cd48ab66384cc54d2c8af86c2ed8f73620935",
+      "source": "bundled_runtime/vendor/peft/tuners/multitask_prompt_tuning/__init__.py"
+    },
+    "vendor/peft/tuners/multitask_prompt_tuning/config.py": {
+      "bytes": 2478,
+      "sha256": "58c8ad51f25d3bebbb18079240c915eb8deea4a094e623a552c1dbe4ef92cc36",
+      "source": "bundled_runtime/vendor/peft/tuners/multitask_prompt_tuning/config.py"
+    },
+    "vendor/peft/tuners/multitask_prompt_tuning/model.py": {
+      "bytes": 4915,
+      "sha256": "cc37cc17c942a2c38a3f5e2aacf7bee467df747385be0a1e2e44715df34ae602",
+      "source": "bundled_runtime/vendor/peft/tuners/multitask_prompt_tuning/model.py"
+    },
+    "vendor/peft/tuners/oft/__init__.py": {
+      "bytes": 1529,
+      "sha256": "59ea89787dc7a3f8da588fc131bc475d221e0a2f079ed684c2924bff98c1a3c6",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/__init__.py"
+    },
+    "vendor/peft/tuners/oft/aqlm.py": {
+      "bytes": 2656,
+      "sha256": "a68f7b452beb7cd91b799cc0ffbd6041eb855ea47e8d324dc4b8f7f0087c7d91",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/aqlm.py"
+    },
+    "vendor/peft/tuners/oft/awq.py": {
+      "bytes": 2813,
+      "sha256": "d2fb05b08952f84235a4b66eb0138fde61c589967487e3a2787ef376da5bda61",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/awq.py"
+    },
+    "vendor/peft/tuners/oft/bnb.py": {
+      "bytes": 14707,
+      "sha256": "a0ae78eb00a4dc160f65deadcbdc7b25fc56af6619467a1c9fe2460b21afbdb3",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/bnb.py"
+    },
+    "vendor/peft/tuners/oft/config.py": {
+      "bytes": 12576,
+      "sha256": "cdba28293b036f08b180eb1e9a2d3e51324558d1098f2dc222f510631980efbd",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/config.py"
+    },
+    "vendor/peft/tuners/oft/eetq.py": {
+      "bytes": 3346,
+      "sha256": "6950b3e1f204248afe41d4ca20efcdf977ecfc121ba9084764ee8c9f7b68cfe7",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/eetq.py"
+    },
+    "vendor/peft/tuners/oft/gptq.py": {
+      "bytes": 2951,
+      "sha256": "bf2b31ddbebc39c8fb78a9142512e37ec6e76ffdc958013ae86cf36f543f74f7",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/gptq.py"
+    },
+    "vendor/peft/tuners/oft/hqq.py": {
+      "bytes": 6750,
+      "sha256": "dcb36434bf112939b9bdbe28001ae8e52e8051792826f4aefab2b237bb94fd04",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/hqq.py"
+    },
+    "vendor/peft/tuners/oft/inc.py": {
+      "bytes": 2959,
+      "sha256": "9de2882b567435b64913957934a538d68efa9398d1186d69f455d456e445785c",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/inc.py"
+    },
+    "vendor/peft/tuners/oft/layer.py": {
+      "bytes": 47705,
+      "sha256": "43739b7c3250eed21f768a105615184d4fd68ab4e7e851208698484508f1bd3e",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/layer.py"
+    },
+    "vendor/peft/tuners/oft/model.py": {
+      "bytes": 6738,
+      "sha256": "e6c658ea4b2c2c6221db7e39212ebafd320ed8fe1ea370e6680b4b3ac7b2452d",
+      "source": "bundled_runtime/vendor/peft/tuners/oft/model.py"
+    },
+    "vendor/peft/tuners/osf/__init__.py": {
+      "bytes": 321,
+      "sha256": "e1984441862d008951134515a09ad47c38e0e9655c328f20b9f1d5576ccfa43d",
+      "source": "bundled_runtime/vendor/peft/tuners/osf/__init__.py"
+    },
+    "vendor/peft/tuners/osf/config.py": {
+      "bytes": 3521,
+      "sha256": "15bad4c1e9b2aab422826b6828fdb22ce1d5b39b5e07d49862a85975b8beb152",
+      "source": "bundled_runtime/vendor/peft/tuners/osf/config.py"
+    },
+    "vendor/peft/tuners/osf/layer.py": {
+      "bytes": 11744,
+      "sha256": "0a3d703ffb4e818a79fa93ed40051b4d27c78b3aa9239d899fc2223923df80ad",
+      "source": "bundled_runtime/vendor/peft/tuners/osf/layer.py"
+    },
+    "vendor/peft/tuners/osf/model.py": {
+      "bytes": 4688,
+      "sha256": "b59b589151818fa4807f4cc167ceaf3e70477f4cfa3081afdba187a46b923afb",
+      "source": "bundled_runtime/vendor/peft/tuners/osf/model.py"
+    },
+    "vendor/peft/tuners/osf/utils.py": {
+      "bytes": 5402,
+      "sha256": "12ddb7521c2fef88b7ac5dc9962f8a495a63f1bd6547db78944b6a448b1a5e64",
+      "source": "bundled_runtime/vendor/peft/tuners/osf/utils.py"
+    },
+    "vendor/peft/tuners/p_tuning/__init__.py": {
+      "bytes": 942,
+      "sha256": "12d44ee666f6252264e793c80da990307c302e6bacbd892c99cb353a20ce2c75",
+      "source": "bundled_runtime/vendor/peft/tuners/p_tuning/__init__.py"
+    },
+    "vendor/peft/tuners/p_tuning/config.py": {
+      "bytes": 2142,
+      "sha256": "33380a28e3d0d6e8ade5e0f0e703794e39091d19d0da63d723347ccc87d5f9a7",
+      "source": "bundled_runtime/vendor/peft/tuners/p_tuning/config.py"
+    },
+    "vendor/peft/tuners/p_tuning/model.py": {
+      "bytes": 5575,
+      "sha256": "aefda66e63ce02b01e7deaa1274f4ecfb5cd19a49c586453d6180a96b7e17c0c",
+      "source": "bundled_runtime/vendor/peft/tuners/p_tuning/model.py"
+    },
+    "vendor/peft/tuners/peanut/__init__.py": {
+      "bytes": 1011,
+      "sha256": "a25d19f2c22285426c097a1a7b64d3ca1373d74239a369a8864f39ddea644aa5",
+      "source": "bundled_runtime/vendor/peft/tuners/peanut/__init__.py"
+    },
+    "vendor/peft/tuners/peanut/config.py": {
+      "bytes": 9019,
+      "sha256": "38b0f02de86d4eb7fb077907584d288fce7cf1b98a78a26e5a2219b0f2753715",
+      "source": "bundled_runtime/vendor/peft/tuners/peanut/config.py"
+    },
+    "vendor/peft/tuners/peanut/layer.py": {
+      "bytes": 9391,
+      "sha256": "624dd920f11128879883e5bd0c13ce448d3e530cd65ba4ef69a168d4dfdf275e",
+      "source": "bundled_runtime/vendor/peft/tuners/peanut/layer.py"
+    },
+    "vendor/peft/tuners/peanut/model.py": {
+      "bytes": 3006,
+      "sha256": "089acde453ec3c95cea4f1036523fe6f5340f92aed9a35ef06aa0425c1eba22a",
+      "source": "bundled_runtime/vendor/peft/tuners/peanut/model.py"
+    },
+    "vendor/peft/tuners/poly/__init__.py": {
+      "bytes": 883,
+      "sha256": "b6a434e9e0aa5afe6e9cca660585bdc6d7141e251af33f7587bb664965595a8e",
+      "source": "bundled_runtime/vendor/peft/tuners/poly/__init__.py"
+    },
+    "vendor/peft/tuners/poly/config.py": {
+      "bytes": 4569,
+      "sha256": "a7d8696b5ee9d7a39c2dcba2effc90b6e3f6120d2dbc8a10797952949b1b9cd2",
+      "source": "bundled_runtime/vendor/peft/tuners/poly/config.py"
+    },
+    "vendor/peft/tuners/poly/layer.py": {
+      "bytes": 6590,
+      "sha256": "4728558b2e3f9d39351f34534d647982137c9fb79d73eb707245da0175611539",
+      "source": "bundled_runtime/vendor/peft/tuners/poly/layer.py"
+    },
+    "vendor/peft/tuners/poly/model.py": {
+      "bytes": 3541,
+      "sha256": "9a5d21367f7494f8194b7fcb04d2df6d11cd32de1c44573dfda3806842aa93c3",
+      "source": "bundled_runtime/vendor/peft/tuners/poly/model.py"
+    },
+    "vendor/peft/tuners/poly/router.py": {
+      "bytes": 2784,
+      "sha256": "a3443787ac8cf45c4958d1a1c0d38ca9a35ebaa6d5da170ec45c540d1ba67390",
+      "source": "bundled_runtime/vendor/peft/tuners/poly/router.py"
+    },
+    "vendor/peft/tuners/prefix_tuning/__init__.py": {
+      "bytes": 868,
+      "sha256": "881407b5982bbf9154fe6cf84564f421d0c17dce42fad5fea836319f044bf167",
+      "source": "bundled_runtime/vendor/peft/tuners/prefix_tuning/__init__.py"
+    },
+    "vendor/peft/tuners/prefix_tuning/config.py": {
+      "bytes": 1922,
+      "sha256": "6a4ab3086cf7132001474f2e8297bc1ebfa4a91fc02bdb4be835beae6da6d9af",
+      "source": "bundled_runtime/vendor/peft/tuners/prefix_tuning/config.py"
+    },
+    "vendor/peft/tuners/prefix_tuning/model.py": {
+      "bytes": 4502,
+      "sha256": "9fd0a9f081fc03ca045fa0ab5d5f9c6d4c3f2d8688591d6dad6f74cb5d2d36d0",
+      "source": "bundled_runtime/vendor/peft/tuners/prefix_tuning/model.py"
+    },
+    "vendor/peft/tuners/prompt_tuning/__init__.py": {
+      "bytes": 912,
+      "sha256": "09e6649bfa9322e712fca13ad113c675ffde714316b57bed58bba9310540753c",
+      "source": "bundled_runtime/vendor/peft/tuners/prompt_tuning/__init__.py"
+    },
+    "vendor/peft/tuners/prompt_tuning/config.py": {
+      "bytes": 3843,
+      "sha256": "cb9b51ecb6e5c25f99eb95485b90c8cec3dadd75c0a1cb188be3a78794d3c977",
+      "source": "bundled_runtime/vendor/peft/tuners/prompt_tuning/config.py"
+    },
+    "vendor/peft/tuners/prompt_tuning/model.py": {
+      "bytes": 4650,
+      "sha256": "e3718ec8e24826f612f016893884abbaad79286f895cea679a22ded299a69644",
+      "source": "bundled_runtime/vendor/peft/tuners/prompt_tuning/model.py"
+    },
+    "vendor/peft/tuners/psoft/__init__.py": {
+      "bytes": 909,
+      "sha256": "5473e424ceb909a1ff0f43586c13ba1f0777dc29c1c345396b681d190979190d",
+      "source": "bundled_runtime/vendor/peft/tuners/psoft/__init__.py"
+    },
+    "vendor/peft/tuners/psoft/config.py": {
+      "bytes": 17819,
+      "sha256": "afd32434a0124ad160350a702bcce2aa94bda52caea1c42f8e66446defe90d8b",
+      "source": "bundled_runtime/vendor/peft/tuners/psoft/config.py"
+    },
+    "vendor/peft/tuners/psoft/layer.py": {
+      "bytes": 18415,
+      "sha256": "43d856ce550324c6a5a0cc365a405a37d565527b2eb1b8bd4eeacf59c62797e9",
+      "source": "bundled_runtime/vendor/peft/tuners/psoft/layer.py"
+    },
+    "vendor/peft/tuners/psoft/model.py": {
+      "bytes": 3022,
+      "sha256": "63c68f87456370437e9aeb2778cab4a7061cccabbdc563423757267d050e7a6c",
+      "source": "bundled_runtime/vendor/peft/tuners/psoft/model.py"
+    },
+    "vendor/peft/tuners/pvera/__init__.py": {
+      "bytes": 918,
+      "sha256": "e00d24d2452ccf5cb330f2ffac341b80271a93a0e148d5f3130fd081fb55236e",
+      "source": "bundled_runtime/vendor/peft/tuners/pvera/__init__.py"
+    },
+    "vendor/peft/tuners/pvera/bnb.py": {
+      "bytes": 17103,
+      "sha256": "01a0139280798986a1df89b650e07851f7075d18a27daa8798b70a5d01bdc6d1",
+      "source": "bundled_runtime/vendor/peft/tuners/pvera/bnb.py"
+    },
+    "vendor/peft/tuners/pvera/config.py": {
+      "bytes": 10906,
+      "sha256": "0b3ae4c3bce48c3ca399e5724f262a1654a1e3de9e385c2047213c89f7ffd4e9",
+      "source": "bundled_runtime/vendor/peft/tuners/pvera/config.py"
+    },
+    "vendor/peft/tuners/pvera/layer.py": {
+      "bytes": 13348,
+      "sha256": "e90e50d54df0b8067a24ca9c9ea90c49d4cf0a2c550b23f81c6d86642ae6c143",
+      "source": "bundled_runtime/vendor/peft/tuners/pvera/layer.py"
+    },
+    "vendor/peft/tuners/pvera/model.py": {
+      "bytes": 10633,
+      "sha256": "41e0f99fff154d93428c91f3800fcb2463ec76af699a335bdcbd4cef071792e6",
+      "source": "bundled_runtime/vendor/peft/tuners/pvera/model.py"
+    },
+    "vendor/peft/tuners/randlora/__init__.py": {
+      "bytes": 1353,
+      "sha256": "7efa3b17adbce15983a821d7714179a72daf2b96df470889df1de8e9e2262343",
+      "source": "bundled_runtime/vendor/peft/tuners/randlora/__init__.py"
+    },
+    "vendor/peft/tuners/randlora/bnb.py": {
+      "bytes": 19316,
+      "sha256": "5f53b69588d92e8c3f05300ecd79161b92cb8a4dbb23df873936216d06229386",
+      "source": "bundled_runtime/vendor/peft/tuners/randlora/bnb.py"
+    },
+    "vendor/peft/tuners/randlora/config.py": {
+      "bytes": 9977,
+      "sha256": "405cb4ea7bb17073613b22e6878fa82882dbdaf76301de6daeb722b7f4795165",
+      "source": "bundled_runtime/vendor/peft/tuners/randlora/config.py"
+    },
+    "vendor/peft/tuners/randlora/layer.py": {
+      "bytes": 15460,
+      "sha256": "ee2946ebc34b86ba3bdcea173367d24369827b4a64c813a0b9f27b724e7acc69",
+      "source": "bundled_runtime/vendor/peft/tuners/randlora/layer.py"
+    },
+    "vendor/peft/tuners/randlora/model.py": {
+      "bytes": 15203,
+      "sha256": "29f0bf4d7cf320616e9f184443bef0d960b13b6b25aacefd8b3b977464986c5d",
+      "source": "bundled_runtime/vendor/peft/tuners/randlora/model.py"
+    },
+    "vendor/peft/tuners/road/__init__.py": {
+      "bytes": 1458,
+      "sha256": "32a205e544bf90db899018ae8a07077eb639c5b418634c3e5ed67c5bcd924427",
+      "source": "bundled_runtime/vendor/peft/tuners/road/__init__.py"
+    },
+    "vendor/peft/tuners/road/bnb.py": {
+      "bytes": 17667,
+      "sha256": "a9a9d01b2929b65dde1a2d28fc45502cdba687b57694b06aacd9487459bcb348",
+      "source": "bundled_runtime/vendor/peft/tuners/road/bnb.py"
+    },
+    "vendor/peft/tuners/road/config.py": {
+      "bytes": 6816,
+      "sha256": "cfb08c1b65fdce02f6d26655c88818c1def10fd6a332ffbb9d9768cc0fa7f5f1",
+      "source": "bundled_runtime/vendor/peft/tuners/road/config.py"
+    },
+    "vendor/peft/tuners/road/layer.py": {
+      "bytes": 17524,
+      "sha256": "30a967108ec9f51e0ad344b1b69d4d4ac0939e5c1bf66e944b426e56379350ec",
+      "source": "bundled_runtime/vendor/peft/tuners/road/layer.py"
+    },
+    "vendor/peft/tuners/road/model.py": {
+      "bytes": 5706,
+      "sha256": "793537727f15eef8b1368ca8af6d6c445688b17964c6a213b407c6e8575db6c4",
+      "source": "bundled_runtime/vendor/peft/tuners/road/model.py"
+    },
+    "vendor/peft/tuners/shira/__init__.py": {
+      "bytes": 942,
+      "sha256": "d76f0cb7c3997d53652721c8fbd9a01c2b8893a9a0e8f3f4a28a7e1d35808d94",
+      "source": "bundled_runtime/vendor/peft/tuners/shira/__init__.py"
+    },
+    "vendor/peft/tuners/shira/config.py": {
+      "bytes": 6598,
+      "sha256": "5c43d3fcb2c00ee940be29b51d5bf73f8cf78b4034540d73d34fb79dabfa7f06",
+      "source": "bundled_runtime/vendor/peft/tuners/shira/config.py"
+    },
+    "vendor/peft/tuners/shira/layer.py": {
+      "bytes": 11523,
+      "sha256": "da02d7b8bf46631d6f2f33f801af4a0321968de78905b8f2de3f960c7bd0fe41",
+      "source": "bundled_runtime/vendor/peft/tuners/shira/layer.py"
+    },
+    "vendor/peft/tuners/shira/mask_functions.py": {
+      "bytes": 3096,
+      "sha256": "56855aaa1efef1c647e8ac62a77646a2c77da5b826ecbca4b5a7126316e9b684",
+      "source": "bundled_runtime/vendor/peft/tuners/shira/mask_functions.py"
+    },
+    "vendor/peft/tuners/shira/model.py": {
+      "bytes": 5119,
+      "sha256": "112df4e3a57830022647f906cf077211cb6073dd067d92de9432778036b13f74",
+      "source": "bundled_runtime/vendor/peft/tuners/shira/model.py"
+    },
+    "vendor/peft/tuners/tinylora/__init__.py": {
+      "bytes": 964,
+      "sha256": "b3c8df30d72af1cadbe0388cd19b4596d9344606326de1b13aa8cd1fbbec45b5",
+      "source": "bundled_runtime/vendor/peft/tuners/tinylora/__init__.py"
+    },
+    "vendor/peft/tuners/tinylora/config.py": {
+      "bytes": 10135,
+      "sha256": "6756cea944c01d176ca56f2c2c48bb32316b9305bc88e153d4bf84b60f53614c",
+      "source": "bundled_runtime/vendor/peft/tuners/tinylora/config.py"
+    },
+    "vendor/peft/tuners/tinylora/layer.py": {
+      "bytes": 24052,
+      "sha256": "e0a59a099c3a5dc1658787a38ac8e1f160e70df6dc9f5c6258604b512275253f",
+      "source": "bundled_runtime/vendor/peft/tuners/tinylora/layer.py"
+    },
+    "vendor/peft/tuners/tinylora/model.py": {
+      "bytes": 14296,
+      "sha256": "72200a28f5f1e5c5a197a4aa3c7f12381c9c40c75aacba7b64335e08d04ab099",
+      "source": "bundled_runtime/vendor/peft/tuners/tinylora/model.py"
+    },
+    "vendor/peft/tuners/trainable_tokens/__init__.py": {
+      "bytes": 1026,
+      "sha256": "9de704967be87cf0802ba2cd80dd3516cc19da1f99bdd7bc5b9f5bc542c4b685",
+      "source": "bundled_runtime/vendor/peft/tuners/trainable_tokens/__init__.py"
+    },
+    "vendor/peft/tuners/trainable_tokens/config.py": {
+      "bytes": 4377,
+      "sha256": "1b7e54fcebd8246a66737e3b0be08333256477b4ca08488de31b560078f8522b",
+      "source": "bundled_runtime/vendor/peft/tuners/trainable_tokens/config.py"
+    },
+    "vendor/peft/tuners/trainable_tokens/layer.py": {
+      "bytes": 12380,
+      "sha256": "d22ffdf1858473c67a3f3345e5be3963ec2419944a6102186ab9ba2302a4414c",
+      "source": "bundled_runtime/vendor/peft/tuners/trainable_tokens/layer.py"
+    },
+    "vendor/peft/tuners/trainable_tokens/model.py": {
+      "bytes": 5876,
+      "sha256": "4f50dc4c72d1864a3d4aefc1bad8be1fd192a756c8e988e2277e4975b3f89380",
+      "source": "bundled_runtime/vendor/peft/tuners/trainable_tokens/model.py"
+    },
+    "vendor/peft/tuners/tuners_utils.py": {
+      "bytes": 108306,
+      "sha256": "2f8f343737348014b71d775dda15a06dbe34df4190ed20afba8ad58ba471a5cf",
+      "source": "bundled_runtime/vendor/peft/tuners/tuners_utils.py"
+    },
+    "vendor/peft/tuners/unilora/__init__.py": {
+      "bytes": 908,
+      "sha256": "a562b12034618f1a4c9aae1d951d8f1f2b58ce52e3c920b720c1ff7dcfdfc959",
+      "source": "bundled_runtime/vendor/peft/tuners/unilora/__init__.py"
+    },
+    "vendor/peft/tuners/unilora/config.py": {
+      "bytes": 9464,
+      "sha256": "769f83ec07062a631284661f303db38474c601bfb03e50b07bf57f8b43b777b6",
+      "source": "bundled_runtime/vendor/peft/tuners/unilora/config.py"
+    },
+    "vendor/peft/tuners/unilora/layer.py": {
+      "bytes": 10270,
+      "sha256": "41b3e2f7ccfbdc68300fa16c93c8ae465dcdb3071bef924ef07c57ea1fc4d76e",
+      "source": "bundled_runtime/vendor/peft/tuners/unilora/layer.py"
+    },
+    "vendor/peft/tuners/unilora/model.py": {
+      "bytes": 9925,
+      "sha256": "2fa8639a04b3e1b5414eac0493063b7fb379807bd085978801b6e14d5d4f7a6a",
+      "source": "bundled_runtime/vendor/peft/tuners/unilora/model.py"
+    },
+    "vendor/peft/tuners/vblora/__init__.py": {
+      "bytes": 901,
+      "sha256": "f2fa6cf6560b398e6ef363138e192fffa6d7be48de44f39f3ec5dcd254185e7f",
+      "source": "bundled_runtime/vendor/peft/tuners/vblora/__init__.py"
+    },
+    "vendor/peft/tuners/vblora/config.py": {
+      "bytes": 10571,
+      "sha256": "f80c7b5f5facd00cc3007c432df9768492f2e484d18711b1dbe6d4332afecc08",
+      "source": "bundled_runtime/vendor/peft/tuners/vblora/config.py"
+    },
+    "vendor/peft/tuners/vblora/layer.py": {
+      "bytes": 11450,
+      "sha256": "a524e3c8add7cd51736c1402eebb66c3a45d5de1960db126ae31c98da7820942",
+      "source": "bundled_runtime/vendor/peft/tuners/vblora/layer.py"
+    },
+    "vendor/peft/tuners/vblora/model.py": {
+      "bytes": 7938,
+      "sha256": "55505772a9709c6d9297ea038d6714dd1b80f7989a1d933b85eb3facf1ccc26a",
+      "source": "bundled_runtime/vendor/peft/tuners/vblora/model.py"
+    },
+    "vendor/peft/tuners/vera/__init__.py": {
+      "bytes": 907,
+      "sha256": "ace9e88fbb81b70b25cc4a43317716c977f6ddeecd876ced856933707c60c89b",
+      "source": "bundled_runtime/vendor/peft/tuners/vera/__init__.py"
+    },
+    "vendor/peft/tuners/vera/config.py": {
+      "bytes": 8093,
+      "sha256": "e7007c8dfe72765a43d26e425f992e4e77ef8317a2636a8c52e003a55a5cf69f",
+      "source": "bundled_runtime/vendor/peft/tuners/vera/config.py"
+    },
+    "vendor/peft/tuners/vera/layer.py": {
+      "bytes": 12608,
+      "sha256": "debe3a427521a8723c637451ebd66eb76b9d41825c3b8e5774e4588213d31bcc",
+      "source": "bundled_runtime/vendor/peft/tuners/vera/layer.py"
+    },
+    "vendor/peft/tuners/vera/model.py": {
+      "bytes": 10159,
+      "sha256": "0e078a3545e40fb1fb42e5b20f9b963009c4f09c80fd84c18544d746be19b98d",
+      "source": "bundled_runtime/vendor/peft/tuners/vera/model.py"
+    },
+    "vendor/peft/tuners/waveft/__init__.py": {
+      "bytes": 913,
+      "sha256": "2f8202bdca3243b57e093093ebfd41a5cd11a2c6acdef711d2833d0c2f4aaf5f",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/__init__.py"
+    },
+    "vendor/peft/tuners/waveft/config.py": {
+      "bytes": 13772,
+      "sha256": "30cdc3c00e6e373cd6eccc34805100b60244a00ba81a7ae7be50c045c9037faa",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/config.py"
+    },
+    "vendor/peft/tuners/waveft/constants.py": {
+      "bytes": 2676,
+      "sha256": "61a11d1d62ca1c8636c34cf31e110da483e42f02535b76f6b9c0a9aec01d4fe0",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/constants.py"
+    },
+    "vendor/peft/tuners/waveft/layer.py": {
+      "bytes": 12969,
+      "sha256": "6fbfd8483c90dfe1fe9961820a9f2eda7190cb46ddb97c18bfec20da4ea12248",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/layer.py"
+    },
+    "vendor/peft/tuners/waveft/model.py": {
+      "bytes": 7617,
+      "sha256": "71fa2bf8dbd9c9d830646f70e6f4e4a52321f16e318ab98d43f78c6186f22fbf",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/model.py"
+    },
+    "vendor/peft/tuners/waveft/wavelet.py": {
+      "bytes": 25219,
+      "sha256": "7441459c6df44df48d72435391a9897384fd6938b050bfa63ee7f17a5f1785e2",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/wavelet.py"
+    },
+    "vendor/peft/tuners/waveft/waverec2d.py": {
+      "bytes": 11665,
+      "sha256": "10ee838a0dbb35c45dd9ea056408bf698ab96b4530cfd13f6880ce08594a0bcb",
+      "source": "bundled_runtime/vendor/peft/tuners/waveft/waverec2d.py"
+    },
+    "vendor/peft/tuners/xlora/__init__.py": {
+      "bytes": 830,
+      "sha256": "37bfdc6234eaf8a21a34cac70e4b0bcf4bcc73380ac7dcbaff76f21210e8c604",
+      "source": "bundled_runtime/vendor/peft/tuners/xlora/__init__.py"
+    },
+    "vendor/peft/tuners/xlora/classifier.py": {
+      "bytes": 7385,
+      "sha256": "24e0a1f08c85d8752442d730a2730b154c3c68df8a7ea0cf53d625b125a542a7",
+      "source": "bundled_runtime/vendor/peft/tuners/xlora/classifier.py"
+    },
+    "vendor/peft/tuners/xlora/config.py": {
+      "bytes": 4629,
+      "sha256": "3e343153cb9c59e0b392c9470685dcb38aa29025cb0ecf8498acb11301325777",
+      "source": "bundled_runtime/vendor/peft/tuners/xlora/config.py"
+    },
+    "vendor/peft/tuners/xlora/layer.py": {
+      "bytes": 9742,
+      "sha256": "9317da3a6b52497e048f1e51b5fbc08775525562db0842187528d1de5f77473a",
+      "source": "bundled_runtime/vendor/peft/tuners/xlora/layer.py"
+    },
+    "vendor/peft/tuners/xlora/model.py": {
+      "bytes": 21132,
+      "sha256": "fd83dd515255eb039936320b249ba0ad5ba15667300c0a4d8ad4ae2c124051b0",
+      "source": "bundled_runtime/vendor/peft/tuners/xlora/model.py"
+    },
+    "vendor/peft/utils/__init__.py": {
+      "bytes": 7008,
+      "sha256": "dedc10152a62a62931613e508d2e7e82314d1e56a72bac4f3dc8f572c43345fb",
+      "source": "bundled_runtime/vendor/peft/utils/__init__.py"
+    },
+    "vendor/peft/utils/constants.py": {
+      "bytes": 18265,
+      "sha256": "ed215bdc594146c21a39e71d104c58e76c2c4032ee1cf0983d59b9f8b7a5df3c",
+      "source": "bundled_runtime/vendor/peft/utils/constants.py"
+    },
+    "vendor/peft/utils/hotswap.py": {
+      "bytes": 30406,
+      "sha256": "4939d05af49208b812551d3e2eb40751dc4e1e1466989b4bd94a2a855cabf208",
+      "source": "bundled_runtime/vendor/peft/utils/hotswap.py"
+    },
+    "vendor/peft/utils/incremental_pca.py": {
+      "bytes": 14026,
+      "sha256": "0bab8d06a39f6dce1e47f8b61d72e393cb31b2a43f6f1878da9197291b7f5dfb",
+      "source": "bundled_runtime/vendor/peft/utils/incremental_pca.py"
+    },
+    "vendor/peft/utils/integrations.py": {
+      "bytes": 11269,
+      "sha256": "87d3dfe56e75b045380585dffd8b03b01ad2a6c0c3c885b1cdf4df70e1d77007",
+      "source": "bundled_runtime/vendor/peft/utils/integrations.py"
+    },
+    "vendor/peft/utils/loftq_utils.py": {
+      "bytes": 11653,
+      "sha256": "f503652f478c6981c3c07f748621e1d8389803b71bd3faab8cdd624fb930e93d",
+      "source": "bundled_runtime/vendor/peft/utils/loftq_utils.py"
+    },
+    "vendor/peft/utils/merge_utils.py": {
+      "bytes": 9939,
+      "sha256": "2b601ee37cc040d42134bf31b7b1b0bbbac4092b08f7084e64d889ae3f5f0163",
+      "source": "bundled_runtime/vendor/peft/utils/merge_utils.py"
+    },
+    "vendor/peft/utils/other.py": {
+      "bytes": 83348,
+      "sha256": "8126f77af650715be3e7eaa8d0acfc66008d22fd803c1932f7c317983d91019b",
+      "source": "bundled_runtime/vendor/peft/utils/other.py"
+    },
+    "vendor/peft/utils/peft_types.py": {
+      "bytes": 5883,
+      "sha256": "71fdbfc64825ce5d89a2bd7e81a6cc231bdbfac5cb37e406aa19a9a91881363a",
+      "source": "bundled_runtime/vendor/peft/utils/peft_types.py"
+    },
+    "vendor/peft/utils/quantization_utils.py": {
+      "bytes": 14184,
+      "sha256": "be23e4d61f8632b72584b8416e6ad63e63c73dc76cf8dfac724bf24c1615ffcc",
+      "source": "bundled_runtime/vendor/peft/utils/quantization_utils.py"
+    },
+    "vendor/peft/utils/save_and_load.py": {
+      "bytes": 65416,
+      "sha256": "16a5766f3bc58acbedd5c53afdd77698d22f9f4bc276b5040b2530b607ec0831",
+      "source": "bundled_runtime/vendor/peft/utils/save_and_load.py"
+    },
+    "vendor/peft/utils/transformers_weight_conversion.py": {
+      "bytes": 29698,
+      "sha256": "7887ee5ca9bdd6568b31ea2978cb842e84a515a0c3564ab9bb900af074c5f624",
+      "source": "bundled_runtime/vendor/peft/utils/transformers_weight_conversion.py"
+    },
+    "vendor/peft/utils/warning.py": {
+      "bytes": 660,
+      "sha256": "20f1d83c229b846a2e418f6d7319e801c2c06d5157a1975ffa273e92989522f6",
+      "source": "bundled_runtime/vendor/peft/utils/warning.py"
+    },
+    "vendor_runtime_linux/catboost-1.2.10.dist-info/METADATA": {
+      "bytes": 1213,
+      "sha256": "4f9ff25c9958463739644450e9d838926396fc8a586e506d0b16bc540478064a",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost-1.2.10.dist-info/METADATA"
+    },
+    "vendor_runtime_linux/catboost-1.2.10.dist-info/RECORD": {
+      "bytes": 5044,
+      "sha256": "71014da3df61d81c25776ba3b73029ac1d5f0c6513732f1964cae4adbf781e9e",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost-1.2.10.dist-info/RECORD"
+    },
+    "vendor_runtime_linux/catboost-1.2.10.dist-info/WHEEL": {
+      "bytes": 113,
+      "sha256": "20306df3344d44ebc6ecfde8c35dd3df68e57213113f0dfe7611d4ef6c3e3cf7",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost-1.2.10.dist-info/WHEEL"
+    },
+    "vendor_runtime_linux/catboost-1.2.10.dist-info/top_level.txt": {
+      "bytes": 25,
+      "sha256": "5d09613faa3a56b12ce9ff19fe38aea49511b8986b7fcf289df961c0cb6fa8b1",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost-1.2.10.dist-info/top_level.txt"
+    },
+    "vendor_runtime_linux/catboost/__init__.py": {
+      "bytes": 1316,
+      "sha256": "563e2e122b69cf98a832a09d014277aa383ca570b3ce2abf6a292715fa29a4dd",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/__init__.py"
+    },
+    "vendor_runtime_linux/catboost/_catboost.so": {
+      "bytes": 276545464,
+      "sha256": "ae97794ee4b51d8a264d3d3544c1fa61615a02bd67ee2f3ae3bf755841bfdd3b",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/_catboost.so"
+    },
+    "vendor_runtime_linux/catboost/carry.py": {
+      "bytes": 2868,
+      "sha256": "f0c6551f75cdf422f4326a62defc09dc3bda0ebc87d53e10e2824a9a50e215d3",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/carry.py"
+    },
+    "vendor_runtime_linux/catboost/core.py": {
+      "bytes": 348141,
+      "sha256": "9c478404e7e1957181c2bdd5bb67b19dd351de6623ee4f8f2fbe63a45b8eba55",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/core.py"
+    },
+    "vendor_runtime_linux/catboost/datasets.py": {
+      "bytes": 14053,
+      "sha256": "6fd89a4954005efd1d471957540c7af954509d9f6910e8f60385f09d5dea98cc",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/datasets.py"
+    },
+    "vendor_runtime_linux/catboost/dev_utils.py": {
+      "bytes": 895,
+      "sha256": "4229f99d2ef7d87c945895b0322c504b9422899206b0ff5e8fa1a7daa0df5f84",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/dev_utils.py"
+    },
+    "vendor_runtime_linux/catboost/eval/__init__.py": {
+      "bytes": 445,
+      "sha256": "43d2b0d97e5677c7f1859332aa5c6cbf051667156edf6baa6166a614b6e7954b",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/__init__.py"
+    },
+    "vendor_runtime_linux/catboost/eval/_fold_model.py": {
+      "bytes": 1039,
+      "sha256": "803e756fb3e34532f0b7a4982b29f0a0d7cef7aa28bb96b464ec56850c102c08",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/_fold_model.py"
+    },
+    "vendor_runtime_linux/catboost/eval/_fold_models_handler.py": {
+      "bytes": 9581,
+      "sha256": "631b954e5b70e45284fb8d6f7199cdf3b54259096348151ab07ef89f6ab11e61",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/_fold_models_handler.py"
+    },
+    "vendor_runtime_linux/catboost/eval/_fold_storage.py": {
+      "bytes": 3745,
+      "sha256": "8611f12f4e6db1bffcf67f8123f21fba3abd863d6a20da4f03df0a17c8689c62",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/_fold_storage.py"
+    },
+    "vendor_runtime_linux/catboost/eval/_readers.py": {
+      "bytes": 2497,
+      "sha256": "149cb1410afd167c6ad10092e1677882e1f138d6ad5c878ac2fa2a3a3c4880c1",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/_readers.py"
+    },
+    "vendor_runtime_linux/catboost/eval/_splitter.py": {
+      "bytes": 6344,
+      "sha256": "55e258ca46e2ccc5dd521323d4e57d19da24412bdb0507f1160cbb9e6607150d",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/_splitter.py"
+    },
+    "vendor_runtime_linux/catboost/eval/catboost_evaluation.py": {
+      "bytes": 13595,
+      "sha256": "1cf546dcf9ea9097f95578b6ee8dd1384f4b860061c172385f38d12591640ed2",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/catboost_evaluation.py"
+    },
+    "vendor_runtime_linux/catboost/eval/evaluation_result.py": {
+      "bytes": 18158,
+      "sha256": "67dfbbd07eb57e799ff9317fd9cb67716620e7d5932539438d3c7286c2faf5c8",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/evaluation_result.py"
+    },
+    "vendor_runtime_linux/catboost/eval/execution_case.py": {
+      "bytes": 2588,
+      "sha256": "b49d92b7a19e2c45eecde8ecbbdb466bc163e42b3f1c3a0c825b19c46ace68e2",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/execution_case.py"
+    },
+    "vendor_runtime_linux/catboost/eval/factor_utils.py": {
+      "bytes": 3442,
+      "sha256": "60fa15abd9e5eb7e3e3f272ed0d9c616c89cb29f47e6c3be86f6839633b8bb7d",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/factor_utils.py"
+    },
+    "vendor_runtime_linux/catboost/eval/log_config.py": {
+      "bytes": 785,
+      "sha256": "fb7a9adeb0eadd714d8c17318284ee13f4e0a86ed2af7d695895363dc3674fcb",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/log_config.py"
+    },
+    "vendor_runtime_linux/catboost/eval/utils.py": {
+      "bytes": 554,
+      "sha256": "03b30d89025c97d80757eb014ae1f56a682e6d043e78af4f6f861fa2c05d35a9",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/eval/utils.py"
+    },
+    "vendor_runtime_linux/catboost/hnsw/__init__.py": {
+      "bytes": 254,
+      "sha256": "b1370e8c16acc766e1c4477201951ce146e2cd5f1420904ecbfd4a372d8ebfc3",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/hnsw/__init__.py"
+    },
+    "vendor_runtime_linux/catboost/hnsw/_hnsw.so": {
+      "bytes": 3220960,
+      "sha256": "0dab9421eb8492fae4892891da728eda019c61f5f3a0e41c1c69f7aedf72674a",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/hnsw/_hnsw.so"
+    },
+    "vendor_runtime_linux/catboost/hnsw/hnsw.py": {
+      "bytes": 20836,
+      "sha256": "1c7afad3ddfea59427509c5458062b252dab6e141c3f87eaad335b444585b360",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/hnsw/hnsw.py"
+    },
+    "vendor_runtime_linux/catboost/metrics.py": {
+      "bytes": 11418,
+      "sha256": "abaf323686e697ecf06ac76c11e6cdc6576135d73304eab16acbe172d61e69f3",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/metrics.py"
+    },
+    "vendor_runtime_linux/catboost/monoforest.py": {
+      "bytes": 4709,
+      "sha256": "70a46024b6eb6749ba69216f1e9d8411829286e981a9e9af45b93a2407d0e57c",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/monoforest.py"
+    },
+    "vendor_runtime_linux/catboost/plot_helpers.py": {
+      "bytes": 6582,
+      "sha256": "a5893271be4e3c60e0e6f60e71734703de46225ffbc38c531a0bb00f77d53f00",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/plot_helpers.py"
+    },
+    "vendor_runtime_linux/catboost/text_processing.py": {
+      "bytes": 91,
+      "sha256": "b4c5483250e725a1fcd6056052dd955f2d6499081baf33cae6c9243f880b2ed9",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/text_processing.py"
+    },
+    "vendor_runtime_linux/catboost/utils.py": {
+      "bytes": 28378,
+      "sha256": "f73fef7c4b535f7af542e73d78ec7a6e50e9a732c6f37b41c323db84def1b701",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/utils.py"
+    },
+    "vendor_runtime_linux/catboost/version.py": {
+      "bytes": 19,
+      "sha256": "e3caee1fcdbb044b0b9e19827588ca6282a654341ba0a16303fef169cf7e640f",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/version.py"
+    },
+    "vendor_runtime_linux/catboost/widget/__init__.py": {
+      "bytes": 503,
+      "sha256": "3b446ec8d15a4c673408d5da7eb2f29853a7c14f27ba76527d098fe656e3f2d6",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/widget/__init__.py"
+    },
+    "vendor_runtime_linux/catboost/widget/callbacks.py": {
+      "bytes": 3335,
+      "sha256": "c5b9d7503d3c4d333e9d3c34fe4825c0a53b0abba610815ced9a93c21966bb4a",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/widget/callbacks.py"
+    },
+    "vendor_runtime_linux/catboost/widget/ipythonwidget.py": {
+      "bytes": 3973,
+      "sha256": "ad244674c5d37bf44a2151f5947e18289a8cface6bb63ffa3da9ef39a5670dc0",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/widget/ipythonwidget.py"
+    },
+    "vendor_runtime_linux/catboost/widget/metrics_plotter.py": {
+      "bytes": 7540,
+      "sha256": "724d7154a5e11bae5da3a49a7917cdddf01c2dbfe6dc23fc7a1e82ea4a857cb5",
+      "source": "bundled_runtime/vendor_runtime_linux/catboost/widget/metrics_plotter.py"
+    }
+  },
+  "package_id": "ecup_quality_inference_runtime",
+  "schema_version": 2,
+  "self_sha256": "fd88234e458552993c688dbe19cf4e3dbb3091f93b1ab2a59e09746d5fbab836"
+}

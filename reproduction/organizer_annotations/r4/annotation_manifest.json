@@ -1,0 +1,19 @@
+{
+  "boundaries": 20,
+  "contains_labels": false,
+  "contains_raw_organizer_rows": false,
+  "contains_text_surfaces": false,
+  "description": "ID-only organizer-train contrastive annotations for both FLV LoRA branches",
+  "pairs": 100,
+  "pairs_file": {
+    "bytes": 23205,
+    "path": "r4_pairs.jsonl",
+    "sha256": "85b8a615aa31db9bec058cec433f77b9832579d8a4f85c7c658e50ad065add5c"
+  },
+  "schema_version": "flv.r4.id_annotations.1",
+  "self_sha256": "743ef778346ce4abac6a77962643578a7460068d71bd0bf8f22eb1333746a8b0",
+  "status": "PASS",
+  "unique_negative_ids": 91,
+  "unique_pair_ids": 100,
+  "unique_positive_ids": 38
+}

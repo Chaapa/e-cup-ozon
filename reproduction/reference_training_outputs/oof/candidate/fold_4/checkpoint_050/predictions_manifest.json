@@ -1,0 +1,21 @@
+{
+  "arm": "candidate",
+  "checkpoint_tag": "checkpoint_050",
+  "contains_images": false,
+  "contains_text_surfaces": false,
+  "fit_status_self_sha256": "902d90a551368b0d56a8e3a8e50f88325a1cb843b29d22c0f010e4b457a6292a",
+  "fit_status_sha256": "0095ccd97bede3b895f36fbcf3ec9b26f0db3758141bb9e562229da2abaf4350",
+  "prediction_policy": "outer_train_prevalence_rank",
+  "predictions_sha256": "5edd44267f9c8b6a075e5621822cd081f520a529c134df1531a77d723c1961e2",
+  "query_fold": 4,
+  "query_labels_used_for_scoring_or_threshold": false,
+  "schema_version": "v170.oof_predictions.1",
+  "self_sha256": "f216cf22163a9454c694991e4827f28c6691826a310145f1692ba0d53334c137",
+  "status": "COMPLETE",
+  "train_folds": [
+    0,
+    1,
+    2,
+    3
+  ]
+}

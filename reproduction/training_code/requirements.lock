@@ -1,0 +1,15 @@
+torch==2.7.1
+torchvision==0.22.1
+transformers==5.15.0
+peft==0.20.0
+accelerate==1.14.0
+safetensors==0.8.0
+huggingface-hub==1.5.0
+pandas==2.3.3
+pyarrow==21.0.0
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+catboost==1.2.8
+Pillow==11.3.0
+pytest==9.1.1

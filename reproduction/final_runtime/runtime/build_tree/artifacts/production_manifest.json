@@ -1,0 +1,252 @@
+{
+  "artifacts": {
+    "cpu/b1_full.joblib": {
+      "bytes": 2923208,
+      "sha256": "56119f0c4558e55ee812f981b0a1f2723046799d953c10237dccfa8b1c7bde8e"
+    },
+    "cpu/char_full.joblib": {
+      "bytes": 1084305,
+      "sha256": "4f6b533ed991b34b76055095f12c01698e6097a941f4d24e857aa8471f417488"
+    },
+    "cpu/selector_augmented_fold01234.cbm": {
+      "bytes": 273944,
+      "sha256": "417a803b845854d4d0e9fd3dc28271e970f4111894c2ed98fa5042f62efbbb90"
+    },
+    "lora/candidate/checkpoint_025/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "236808de73e5848b8666b456d70f8aaf655c6b05919f1719a45f87d3d2223a7a"
+    },
+    "lora/candidate/checkpoint_025/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "7ef03a20c4f8e33c5bb81fce667b84050ac91df4a30149fdc3fe1d12c2899f14"
+    },
+    "lora/candidate/checkpoint_050/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "236808de73e5848b8666b456d70f8aaf655c6b05919f1719a45f87d3d2223a7a"
+    },
+    "lora/candidate/checkpoint_050/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "5c57a36aaefabf0cb097b25b3f2b36e65df689384e04006b449b01cb73f105da"
+    },
+    "lora/candidate/checkpoint_100/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "236808de73e5848b8666b456d70f8aaf655c6b05919f1719a45f87d3d2223a7a"
+    },
+    "lora/candidate/checkpoint_100/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "135f09d3e953c29ea67321d0d2be3eaf3bf0c46ee3f2c647b9d2439466666b80"
+    },
+    "lora/control/checkpoint_025/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7"
+    },
+    "lora/control/checkpoint_025/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "59fc3cdb222507c955a35480c274ff023311d7ccc6038a5b2d72864ccd80355d"
+    },
+    "lora/control/checkpoint_050/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7"
+    },
+    "lora/control/checkpoint_050/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "a1f8035b398ba5eb0792ef4444d4d06aab0c8f02947f8d9436c55c26cb5dfb49"
+    },
+    "lora/control/checkpoint_100/adapter_config.json": {
+      "bytes": 1233,
+      "sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7"
+    },
+    "lora/control/checkpoint_100/adapter_model.safetensors": {
+      "bytes": 121957008,
+      "sha256": "0f35589cdb20bef79329c49afbf9d448250c37a944b56f272b7a270143373fad"
+    }
+  },
+  "base_file_contract": [
+    {
+      "bytes": 11544,
+      "path": "LICENSE",
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+    },
+    {
+      "bytes": 3161,
+      "path": "config.json",
+      "sha256": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670"
+    },
+    {
+      "bytes": 76196,
+      "path": "model.safetensors.index.json",
+      "sha256": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d"
+    },
+    {
+      "bytes": 390,
+      "path": "preprocessor_config.json",
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+    },
+    {
+      "bytes": 12807982,
+      "path": "tokenizer.json",
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "bytes": 16710,
+      "path": "tokenizer_config.json",
+      "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8"
+    },
+    {
+      "bytes": 7756,
+      "path": "chat_template.jinja",
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+    },
+    {
+      "bytes": 3353259,
+      "path": "merges.txt",
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+    },
+    {
+      "bytes": 385,
+      "path": "video_preprocessor_config.json",
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+    },
+    {
+      "bytes": 6722759,
+      "path": "vocab.json",
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+    },
+    {
+      "bytes": 5329398688,
+      "path": "model.safetensors-00001-of-00002.safetensors",
+      "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61"
+    },
+    {
+      "bytes": 3990429408,
+      "path": "model.safetensors-00002-of-00002.safetensors",
+      "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188"
+    }
+  ],
+  "base_model": "Qwen/Qwen3.5-4B",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "candidate_fit_status_sha256": "8066aaf9a761f9f398fb7899e27665bbb460b7085233c748d4271b62fc151b30",
+  "candidate_rank": 16,
+  "candidate_train_events_sha256": "347770b71faa2b62400c920c69519f236f372accc9f66950f343146bf309347e",
+  "checkpoint_tags": [
+    "checkpoint_025",
+    "checkpoint_050",
+    "checkpoint_100"
+  ],
+  "contains_base_model": false,
+  "contains_images": false,
+  "contains_organizer_rows": false,
+  "contains_predictions": false,
+  "control_fit_status_sha256": "a2b7e833782e7e17251a4ce8d5fc531819235fad010f139bfd4b652d0690af10",
+  "control_rank": 16,
+  "control_train_events_sha256": "f3e1c100416a55acea437266aa63246c4e6e49ba01d7b2415dbd3920290775af",
+  "package_id": "flv_control_candidate_runtime",
+  "feature_columns": [
+    "b1_score",
+    "b1_rank",
+    "b1_z",
+    "b1_prediction",
+    "char_score",
+    "char_rank",
+    "char_z",
+    "char_prediction",
+    "lora025_score",
+    "lora025_rank",
+    "lora025_z",
+    "lora025_prediction",
+    "lora050_score",
+    "lora050_rank",
+    "lora050_z",
+    "lora050_prediction",
+    "lora100_score",
+    "lora100_rank",
+    "lora100_z",
+    "lora100_prediction",
+    "vote_count",
+    "z_mean",
+    "z_std",
+    "z_min",
+    "z_max",
+    "rank_mean",
+    "rank_std",
+    "rank_min",
+    "rank_max",
+    "lora_delta_050_025_score",
+    "lora_delta_050_025_rank",
+    "lora_delta_100_050_score",
+    "lora_delta_100_050_rank",
+    "lora_delta_100_025_score",
+    "lora_delta_100_025_rank",
+    "component_log1p",
+    "image_count",
+    "name_chars_log1p",
+    "description_chars_log1p",
+    "round7_lora025_score",
+    "round7_lora025_rank",
+    "round7_lora025_z",
+    "round7_lora025_prediction",
+    "round7_lora025_delta_score",
+    "round7_lora025_delta_rank",
+    "round7_lora025_delta_z",
+    "round7_lora025_disagrees_control",
+    "round7_lora050_score",
+    "round7_lora050_rank",
+    "round7_lora050_z",
+    "round7_lora050_prediction",
+    "round7_lora050_delta_score",
+    "round7_lora050_delta_rank",
+    "round7_lora050_delta_z",
+    "round7_lora050_disagrees_control",
+    "round7_lora100_score",
+    "round7_lora100_rank",
+    "round7_lora100_z",
+    "round7_lora100_prediction",
+    "round7_lora100_delta_score",
+    "round7_lora100_delta_rank",
+    "round7_lora100_delta_z",
+    "round7_lora100_disagrees_control",
+    "round7_vote_count",
+    "round7_control_disagreement_count",
+    "round7_delta_rank_mean",
+    "round7_delta_rank_min",
+    "round7_delta_rank_max",
+    "round7_delta_z_mean",
+    "round7_delta_z_min",
+    "round7_delta_z_max"
+  ],
+  "fold4_used_for_candidate_selection": false,
+  "meta_all_expert_inputs_oof": true,
+  "meta_fit_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "meta_fit_rows": 5502,
+  "meta_fold4_used": true,
+  "model_snapshot_files_sha256": "330edab45b5722ed9a981ac38269ef8702a7b9610b075026585f9cb173a2ef0b",
+  "q4_gate_passed": true,
+  "q4_gate_report_sha256": "619b0f46b548ea19f62449e92df119538ad1e0955a7aa6f0ac169e8fc0364452",
+  "quota_denominator": 5502,
+  "quota_numerator": 198,
+  "recipe_frozen_before_fold4": true,
+  "round7_pair_inventory": 62,
+  "round7_pair_weight": 0.03,
+  "rule_features_used": false,
+  "schema_version": "flv.dual_runtime.production_manifest.1",
+  "selector_manifest_self_sha256": "0531a7891c70dbdf04d15eec50709f42148665da9df763fb02893721a88b0414",
+  "selector_model_sha256": "417a803b845854d4d0e9fd3dc28271e970f4111894c2ed98fa5042f62efbbb90",
+  "status": "PRODUCTION_ARTIFACTS_COMPLETE",
+  "text_only": true,
+  "training_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "training_positives": 198,
+  "training_rows": 5502,
+  "self_sha256": "05e8c32f97869485eca9a4e3217a02f324e5d9667e7fcba441e55bab8c00e071"
+}

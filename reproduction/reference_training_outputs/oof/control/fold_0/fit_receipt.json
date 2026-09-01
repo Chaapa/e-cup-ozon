@@ -1,0 +1,35 @@
+{
+  "arm": "control",
+  "checkpoints": {
+    "checkpoint_025": {
+      "bytes": 76084,
+      "path": "checkpoint_025/predictions.local_only.parquet",
+      "rows": 1100,
+      "sha256": "fdf6b5ea00bb7ba31ee0b10922e09255e71df164c51962a84de23755cdc9c37b"
+    },
+    "checkpoint_050": {
+      "bytes": 76442,
+      "path": "checkpoint_050/predictions.local_only.parquet",
+      "rows": 1100,
+      "sha256": "9e691a4f1f97dd3d5786badc755a6483e0acb0a8651a799cbbc5d99625491e8e"
+    },
+    "checkpoint_100": {
+      "bytes": 75781,
+      "path": "checkpoint_100/predictions.local_only.parquet",
+      "rows": 1100,
+      "sha256": "ce830fb97e0a0b7ad408569c699141b4408102b9cee07c57e6f2f6ee418e59cd"
+    }
+  },
+  "contains_images": false,
+  "contains_predictions": true,
+  "contains_text_surfaces": false,
+  "query_fold": 0,
+  "schema_version": "flv.oof.fit_receipt.1",
+  "self_sha256": "cfce102708f55d2bf72db6b13bbfad9c7ebed40fb02220e4e607636edb4a640e",
+  "status": "COMPLETE",
+  "train_folds": [
+    1,
+    2,
+    3
+  ]
+}

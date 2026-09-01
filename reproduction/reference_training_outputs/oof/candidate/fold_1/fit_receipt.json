@@ -1,0 +1,35 @@
+{
+  "arm": "candidate",
+  "checkpoints": {
+    "checkpoint_025": {
+      "bytes": 74474,
+      "path": "checkpoint_025/predictions.local_only.parquet",
+      "rows": 1100,
+      "sha256": "8425ad87da240070e7bc614680536bf0fa4764fa01f292a2afa5009def666fb8"
+    },
+    "checkpoint_050": {
+      "bytes": 74823,
+      "path": "checkpoint_050/predictions.local_only.parquet",
+      "rows": 1100,
+      "sha256": "24b96f55c22d0b930b4a47c8a79c7ef27959145944c9dd4d334c3f51a34a55d5"
+    },
+    "checkpoint_100": {
+      "bytes": 74803,
+      "path": "checkpoint_100/predictions.local_only.parquet",
+      "rows": 1100,
+      "sha256": "a31ae6dc92dd4988f2b6f78c24d877fc88e67c2383b10f1705f838bfef00cb22"
+    }
+  },
+  "contains_images": false,
+  "contains_predictions": true,
+  "contains_text_surfaces": false,
+  "query_fold": 1,
+  "schema_version": "flv.oof.fit_receipt.1",
+  "self_sha256": "9fc1616ad05d9ce0518b26c1a0b5747e36d2108382db313d1611b6fc84ef06ea",
+  "status": "COMPLETE",
+  "train_folds": [
+    0,
+    2,
+    3
+  ]
+}

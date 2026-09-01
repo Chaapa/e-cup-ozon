@@ -1,0 +1,77 @@
+{
+  "alpha": 32,
+  "arm": "control",
+  "base_model": "Qwen/Qwen3.5-4B",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "checkpoints": [
+    {
+      "adapter_config_bytes": 1233,
+      "adapter_config_sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7",
+      "adapter_model_bytes": 121957008,
+      "adapter_model_sha256": "59fc3cdb222507c955a35480c274ff023311d7ccc6038a5b2d72864ccd80355d",
+      "fraction": 0.25,
+      "inference_zip_config_member": "artifacts/lora/control/checkpoint_025/adapter_config.json",
+      "inference_zip_model_member": "artifacts/lora/control/checkpoint_025/adapter_model.safetensors",
+      "tag": "checkpoint_025"
+    },
+    {
+      "adapter_config_bytes": 1233,
+      "adapter_config_sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7",
+      "adapter_model_bytes": 121957008,
+      "adapter_model_sha256": "a1f8035b398ba5eb0792ef4444d4d06aab0c8f02947f8d9436c55c26cb5dfb49",
+      "fraction": 0.5,
+      "inference_zip_config_member": "artifacts/lora/control/checkpoint_050/adapter_config.json",
+      "inference_zip_model_member": "artifacts/lora/control/checkpoint_050/adapter_model.safetensors",
+      "tag": "checkpoint_050"
+    },
+    {
+      "adapter_config_bytes": 1233,
+      "adapter_config_sha256": "0f3a150709dc812294939186c46ddea1b036dd581041cc41db70f43745cd99c7",
+      "adapter_model_bytes": 121957008,
+      "adapter_model_sha256": "0f35589cdb20bef79329c49afbf9d448250c37a944b56f272b7a270143373fad",
+      "fraction": 1.0,
+      "inference_zip_config_member": "artifacts/lora/control/checkpoint_100/adapter_config.json",
+      "inference_zip_model_member": "artifacts/lora/control/checkpoint_100/adapter_model.safetensors",
+      "tag": "checkpoint_100"
+    }
+  ],
+  "contains_images": false,
+  "contains_raw_organizer_rows": false,
+  "contains_text_surfaces": false,
+  "r4_pairs": 100,
+  "r4_weight": 0.02,
+  "r5_openrouter_pairs": 200,
+  "r5_weight": 0.02,
+  "r7_fullfit_mass_keys": 62,
+  "r7_relation_instances": 100,
+  "r7_weight": 0.0,
+  "rank": 16,
+  "schedule": {
+    "ce_order_sha256": "39553a9c1c6985c6b2f3456e9a48c9ada2f7844fd276edacb2b76e8d5dfb0f8a",
+    "checkpoint_steps": {
+      "172": 1.0,
+      "43": 0.25,
+      "86": 0.5
+    },
+    "optimizer_steps": 172,
+    "r4_draws": 688,
+    "r4_group_draw_max": 19,
+    "r4_group_draw_min": 18,
+    "r4_order_sha256": "d67de9372f446bb855b957163660664fc6abfa3b34bdb4a7cfd39f280c7beab9",
+    "r5_draws": 688,
+    "r5_group_draw_max": 16,
+    "r5_group_draw_min": 15,
+    "r5_order_sha256": "a03d20344af45ace751162cd3903eeb48d16bbfc71bc09d2de1d740748dc871f",
+    "r7_draws": 0,
+    "r7_order_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "schedule_sha256": "b9b85ff93431125fd31d04a21a526c30bb8a090417bd3e924a1987805db103bf",
+    "warmup_steps": 6
+  },
+  "schema_version": "flv.full_fit.receipt.1",
+  "self_sha256": "f1ee08b7f521123933a5d1e6027c2daec7621ad2b6cf4be6bfe81ff32589e383",
+  "status": "COMPLETE",
+  "text_only": true,
+  "train_positives": 198,
+  "train_rows": 5502,
+  "weights_stored_in_inference_zip": true
+}

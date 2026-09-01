@@ -1,0 +1,17 @@
+{
+  "schema_version": "v170.submission_manifest.template.1",
+  "status": "TEMPLATE_ONLY_NOT_VALID_INPUT",
+  "solution_name": "REPLACE_WITH_FINAL_REPRODUCED_SOLUTION_NAME",
+  "method": "matched control/candidate FLV LoRA plus OOF CatBoost selector",
+  "base_model": "Qwen/Qwen3.5-4B",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "organizer_train_only": true,
+  "contains_external_eval_rows": false,
+  "contains_external_eval_labels": false,
+  "external_eval_feedback_used_for_fit_selection_or_calibration": false,
+  "control_fit_status_sha256": "REPLACE",
+  "candidate_fit_status_sha256": "REPLACE",
+  "selector_manifest_sha256": "REPLACE",
+  "submission_csv_sha256": "REPLACE",
+  "submission_zip_sha256": "REPLACE"
+}

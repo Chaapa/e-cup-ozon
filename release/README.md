@@ -10,3 +10,7 @@ submission archive prepared for upload.
 
 Both ZIP archives passed a full CRC integrity check before being added. The
 large archives are tracked with Git LFS.
+
+The browsable, unpacked reproduction package is available in
+[`../reproduction/`](../reproduction/). Its nested runtime ZIP is also tracked
+with Git LFS.

@@ -1,0 +1,44 @@
+{
+  "contains_labels": false,
+  "contains_raw_organizer_rows": false,
+  "contains_text_surfaces": false,
+  "description": "Bundled ID-only R4 and R7 annotations",
+  "files": [
+    {
+      "bytes": 1258,
+      "path": "README.md",
+      "sha256": "fa4728bf0428f2a797f08ef63212c85aadd686184921bc9cb138d239f15885ad"
+    },
+    {
+      "bytes": 1857,
+      "path": "README_RU.md",
+      "sha256": "2b4a1e570b721d2f6c23381045afd4cbe3556934155b1ec3eb00b0335fd5f951"
+    },
+    {
+      "bytes": 627,
+      "path": "r4/annotation_manifest.json",
+      "sha256": "80ca85d644e7df2df27377ab02a5c976897a6da91be0726aa0c1cdb163cc03eb"
+    },
+    {
+      "bytes": 23205,
+      "path": "r4/r4_pairs.jsonl",
+      "sha256": "85b8a615aa31db9bec058cec433f77b9832579d8a4f85c7c658e50ad065add5c"
+    },
+    {
+      "bytes": 742,
+      "path": "r7/annotation_manifest.json",
+      "sha256": "36c5084de19115167f2fe0b95695917b30a834d9cf21657ce2985cdf8fec1085"
+    },
+    {
+      "bytes": 25394,
+      "path": "r7/r7_relations.jsonl",
+      "sha256": "fb10669fea835bd7aefefcc0690dc4aca665134fc4aa5721868278e6487f07e0"
+    }
+  ],
+  "r4_pairs": 100,
+  "r7_mass_keys": 62,
+  "r7_relation_instances": 100,
+  "schema_version": "flv.organizer_annotations.bundle.1",
+  "self_sha256": "a8a08fc15f0aa59409fdef5eb171f775877221708949f9fa162a9e228be49085",
+  "status": "COMPLETE"
+}

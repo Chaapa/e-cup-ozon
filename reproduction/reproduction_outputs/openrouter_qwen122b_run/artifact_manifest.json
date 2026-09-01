@@ -1,0 +1,30 @@
+{
+  "schema_version": "v170.r5.production.artifacts.1",
+  "verdict": "PASS",
+  "files": {
+    "authored_frames.jsonl": {
+      "sha256": "0bde37fa815c697be23311505d21d5440a59edb82443393d08881db96a091521",
+      "bytes": 255732
+    },
+    "rendered_pairs.jsonl": {
+      "sha256": "0660f2fb0414b773906f19a37513c7a8cc3071d571230ab5c5b25871ff71fd40",
+      "bytes": 383908
+    },
+    "structural_audit.jsonl": {
+      "sha256": "bb64ca5a3d50640cc147cb941fb13cb015a475a70cb658e7890b9bef9206f158",
+      "bytes": 81626
+    },
+    "blind_reviews.jsonl": {
+      "sha256": "7bea00b10ff5f080813fb9c71c2519fd0c7e9e26cbc5d247f62af7d8c1626077",
+      "bytes": 92967
+    },
+    "training_cards.jsonl": {
+      "sha256": "10e85ae4bcd6849d8ab860d6d4986485f75cb626c452c07724bad3052672928c",
+      "bytes": 382632
+    },
+    "metrics.json": {
+      "sha256": "71f6317305a5d7632042aa3dbddd17f21bcbd31448bd08eab2a2fa2ac88f857c",
+      "bytes": 3712
+    }
+  }
+}

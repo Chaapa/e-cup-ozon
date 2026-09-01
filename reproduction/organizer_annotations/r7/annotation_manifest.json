@@ -1,0 +1,25 @@
+{
+  "boundaries": 7,
+  "contains_labels": false,
+  "contains_raw_organizer_rows": false,
+  "contains_text_surfaces": false,
+  "description": "ID-only query-specific organizer-train relation annotations for the candidate FLV LoRA branch",
+  "query_counts": {
+    "0": 22,
+    "1": 33,
+    "2": 30,
+    "3": 15
+  },
+  "relation_instances": 100,
+  "relations_file": {
+    "bytes": 25394,
+    "path": "r7_relations.jsonl",
+    "sha256": "fb10669fea835bd7aefefcc0690dc4aca665134fc4aa5721868278e6487f07e0"
+  },
+  "schema_version": "flv.r7.id_annotations.1",
+  "self_sha256": "5360e37e8895be4477e7c11fd51d767cd7c161b9d444908c308979c346fa1ced",
+  "status": "PASS",
+  "unique_mass_keys": 62,
+  "unique_negative_ids": 45,
+  "unique_positive_ids": 18
+}

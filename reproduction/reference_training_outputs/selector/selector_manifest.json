@@ -1,0 +1,21 @@
+{
+  "all_expert_inputs_oof": true,
+  "contains_raw_organizer_rows": false,
+  "feature_count": 71,
+  "fit_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "inference_zip_member": "artifacts/cpu/selector_augmented_fold01234.cbm",
+  "model_file": {
+    "bytes": 273944,
+    "path": "selector_augmented_fold01234.cbm",
+    "sha256": "417a803b845854d4d0e9fd3dc28271e970f4111894c2ed98fa5042f62efbbb90"
+  },
+  "schema_version": "flv.catboost_selector.artifact.1",
+  "self_sha256": "f5919a3b196cef6df46056b0031bd03a5d30de0b9847b3e8b2906ac62ea5704b",
+  "status": "COMPLETE"
+}

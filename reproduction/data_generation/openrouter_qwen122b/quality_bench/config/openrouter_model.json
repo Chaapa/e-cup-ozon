@@ -1,0 +1,27 @@
+{
+  "schema_version": "openrouter.r5.model_config.1",
+  "seed": 20260830,
+  "data": {
+    "supplied_via": "--source-train",
+    "required_columns": [
+      "clean_name",
+      "clean_description",
+      "label"
+    ],
+    "expected_rows": 5502,
+    "expected_positives": 198
+  },
+  "model": {
+    "openrouter_model": "qwen/qwen3.5-122b-a10b",
+    "huggingface_model": "Qwen/Qwen3.5-122B-A10B",
+    "huggingface_revision": "dc4d348443bc740c68e2d77492492c11606384d5",
+    "parameter_count": 125086497008,
+    "provider": "novita",
+    "quantization": "bf16",
+    "prompt_usd_per_million_tokens": 0.40,
+    "completion_usd_per_million_tokens": 3.20
+  },
+  "budget": {
+    "hard_cap_usd": 10.0
+  }
+}

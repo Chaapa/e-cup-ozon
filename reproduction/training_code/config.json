@@ -1,0 +1,117 @@
+{
+  "schema_version": "v170.reproduction_training.1",
+  "experiment_id": "quality_flv_openrouter_reproduction",
+  "purpose": "train FLV control/candidate LoRA branches and a CatBoost selector from organizer CE plus R4/R5/R7 pairwise inputs",
+  "base_model": "Qwen/Qwen3.5-4B",
+  "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "binary_token_ids": {
+    "0": 15,
+    "1": 16
+  },
+  "prompt": {
+    "system": "Ты классифицируешь товар строго по конвенции организаторов.\n\n1: самостоятельный источник открытого огня; или горючее/ЛВЖ/горючий газ в продаваемом товаре; или ЛВЖ-товар явно входит в комплект.\n\n0: устройство лишь используется с огнём/топливом; содержимое отсутствует; источник воспламенения только встроен; горючий материал лишь компонент другого изделия; либо ЛВЖ-предмет явно не входит в комплект.\n\nИзучи название, описание и все панели текущей галереи. Ответь ровно одним символом: 0 или 1.",
+    "user_template": "Название: {title}\n\nОписание: {description}\n\nКласс товара:"
+  },
+  "training": {
+    "seed": 20260822,
+    "rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "lora_target_suffixes": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "in_proj_qkv",
+      "in_proj_z",
+      "out_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "epochs": 1.0,
+    "effective_batch_size": 32,
+    "micro_batch_size": 4,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "warmup_ratio": 0.03,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": true,
+    "attention_implementation": "sdpa",
+    "bf16": true,
+    "tf32": true,
+    "r4_batch_size": 4,
+    "r4_weight": 0.02,
+    "r5_batch_size": 4,
+    "r5_weight": 0.02,
+    "r7_batch_size": 2,
+    "r7_candidate_weight": 0.03,
+    "r7_control_weight": 0.0,
+    "checkpoint_fractions": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "text_only": true,
+    "synthetic_ce_rows": 0
+  },
+  "data": {
+    "expected_full_rows": 5502,
+    "expected_full_positives": 198,
+    "expected_folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "supplementary_development_folds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "forward_gate_fold": 4,
+    "expected_r4_pairs": 100,
+    "expected_r5_pairs": 200,
+    "minimum_r5_style_frames": 40,
+    "maximum_r5_pairs_per_style_frame": 5,
+    "minimum_r5_structural_pass_rate": 1.0,
+    "minimum_r5_direction_accuracy": 1.0,
+    "minimum_r5_blind_usable_rate": 0.95,
+    "expected_r7_relation_instances": 100,
+    "expected_r7_mass_keys": 62,
+    "expected_r7_query_counts": {
+      "0": 22,
+      "1": 33,
+      "2": 30,
+      "3": 15
+    }
+  },
+  "selector": {
+    "all_expert_inputs_oof": true,
+    "rule_features_used": false,
+    "checkpoint_tags": [
+      "checkpoint_025",
+      "checkpoint_050",
+      "checkpoint_100"
+    ],
+    "iterations": 800,
+    "depth": 4,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 20.0,
+    "random_strength": 0.0,
+    "bootstrap_type": "No",
+    "loss_function": "Logloss",
+    "random_seed": 20260823,
+    "thread_count": 8
+  },
+  "container": {
+    "immutable_reference": "pytorch/pytorch@sha256:3d614dfd422b7e43647491cbf07d6acc516c032fc49c594a94afdebd52552fb9",
+    "cuda": "12.8",
+    "hardware_class": "H100"
+  }
+}
